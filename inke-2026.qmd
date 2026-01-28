@@ -1,0 +1,150 @@
+---
+title: INKE-2026
+subtitle: ""
+author:
+  - name: Zachary Batist
+    id: zb
+    email: zachary.batist@mcgill.ca
+    url: https://zackbatist.info
+    orcid: 0000-0003-0435-508X
+    corresponding: true
+    affiliations:
+      - name: McGill University
+        department: Epidemiology, Biostatistics and Occupational Health
+        city: Montreal
+        region: Québec
+        country: Canada
+bibliography: assets/inke-2026.bib
+csl: assets/chicago-author-date.csl
+license: CC0
+lang: en-CA
+date: last-modified
+date-format: "MMMM DD, YYYY"
+language:
+  title-block-published: "Updated"
+keywords:
+  - x
+  - x
+  - x
+funding: |
+  x
+citation:
+  type: speech
+  event-place: Université de Montréal
+  event-title: INKE 2026 Gathering
+  doi: TBD
+  url: https://zackbatist.info/inke-2026
+number-sections: false
+code-fold: true
+code-copy: true
+code-tools:
+  source: true
+  toggle: false
+  caption: Source
+code-overflow: wrap
+filters:
+  - abstract-section
+  - count-para.lua
+title-block-banner: plain
+crossref:
+  custom:
+    - kind: float
+      reference-prefix: Excerpt
+      key: exc
+      caption-location: bottom
+      latex-env: excerpt
+format:
+  html:
+    embed-resources: true
+    grid:
+      margin-width: 500px
+      body-width: 950px
+    toc: true
+    toc-depth: 2
+    toc-expand: 2
+    include-in-header:
+      - text: |
+          <style type="text/css">
+            .exc {
+              background-color: rgb(247, 247, 247);
+              &.quarto-figure-center>figure>div {
+                text-align: left;
+              }
+            }
+            h1.hide {
+              display: none;
+            }
+            #quarto-document-content {
+              text-align: justify;
+            }
+            .abstract {
+              text-align: justify;
+            }
+          </style>
+  pdf:
+    keep-tex: true
+    latex-clean: true
+    geometry:
+      - top = 0.75in
+      - bottom = 1in
+      - left = 1in
+      - right = 1in
+    colorlinks: true
+    toc: false
+    reference-location: block
+    include-in-header:
+      text: |
+        \usepackage{setspace}
+        \onehalfspacing
+        \usepackage{orcidlink}
+        \usepackage{marvosym}
+    template-partials:
+      - assets/title.tex
+  revealjs:
+    slides: true
+    output-file: slides
+    embed-resources: true
+    toc: false
+    # title: x
+    # subtitle: x
+    theme: black
+    slide-number: c/t
+    template-partials:
+      - slides/title-slide.html
+    css: slides/slides-styles.css
+format-links: 
+  - pdf
+  - format: revealjs
+    text: Slides
+    icon: easel
+
+---
+
+:::: {.content-hidden when-format="revealjs"}
+::: {.callout-note}
+This is an abstract for a paper submitted to the 13th annual gathering of the Implementing New Knowledge Environments ([INKE](https://inke.ca/)) Partnership, whose theme this year is "Re-Defining Open Social Scholarship in an Age of Generative 'Intelligence'".
+The workshop will be hosted at Université de Montréal on June 4-5, 2026, coinciding with the annual conference of the [Canadian Society for Digital Humanities](https://csdh-schn.ca/) and the [Digital Humanities Summer Institute](https://dhsi.org/).
+The full paper and slides will be accessible here in the future.\
+
+[This content is also available at [zackbatist.info/inke-2026](https://zackbatist.info/inke-2026/) for a better reading experience.]{.content-visible when-format="pdf"}
+:::
+
+{{< include sections/00_abstract.qmd >}}
+<!-- {{< include sections/01_introduction.qmd >}}
+{{< include sections/02_background.qmd >}}
+{{< include sections/03_methods-materials.qmd >}}
+{{< include sections/04_findings.qmd >}}
+{{< include sections/05_discussion.qmd >}}
+{{< include sections/06_conclusion.qmd >}}
+{{< include sections/12_supplement.qmd >}}
+{{< include sections/10_references.qmd >}}
+{{< include sections/11_back-matter.qmd >}} -->
+
+::::
+
+::: {.content-hidden unless-meta="slides"}
+
+{{< include slides/slides.qmd >}}
+
+:::
+

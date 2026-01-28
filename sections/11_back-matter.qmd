@@ -1,0 +1,24 @@
+:::{.content-visible when-format="html"}
+# Back Matter {.hide}
+:::
+
+## Acknowledgments {.appendix}
+
+## Funding {.appendix}
+
+## Competing Interests {.appendix}
+The author states no conflicts of interest.
+
+## Author Contributions {.appendix}
+Zachary Batist is the sole author of this work.
+He defined the scope of the study and identified suitable cases for inclusion, collected and processed all data, performed analysis, interpreted the findings, created all the figures, and wrote the paper.
+
+## Informed Consent {.appendix}
+
+## Data Availability Statement {.appendix}
+The data generated and analyzed during the current study are included in this published article's supplementary files.
+
+## Author Bio {.appendix}
+Zachary Batist obtained his PhD from the University of Toronto's Faculty of Information.
+His research explores the collaborative commitments inherent throughout archaeological practice, especially relating to data management and the constitution of information commons.
+He currently works as a Postdoctoral Researcher at the Department of Epidemiology, Biostatistics and Occupational Health in the School of Public and Global Health at McGill University, where he investigates the collaborative, technical and administrative structures that scaffold data harmonization in epidemiological research.
