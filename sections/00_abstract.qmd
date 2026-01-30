@@ -1,1 +1,18 @@
 # Abstract
+There's a clear tension between researchers' obligations to make their work openly accessible and the use of these materials to train artificial intelligence (AI) models.
+On one hand, researchers produce knowledge for public benefit, and on the other hand, the fruits of their labour are being used in questionable applications.
+Although much has already been written about technical, legal and ethical aspects of this tension, common arguments take for granted the sense that AI is inherently disruptive relative to the _status quo_.
+However, I argue that the discourse surrounding AI's arrival on the scene represents a continuation of a broader social phenomenon, namely relating to the formation and management of information commons among researchers.
+
+In all research activities, scholars rely on, or otherwise participate in information commons, which are scaffolded by technical and administrative systems, and by collaborative norms and expectations.
+However, the infrastructures and policy mandates built by the open science movement are commonly framed as technical solutions to resolve systemic social problems; while created with good intent, they often impose new commitments for participating in the commons that are not valued by the communities that actually make these commons possible, and to some extent even undermine the established norms that research communities have developed for themselves.
+Specifically, community norms, which previously served to establish the boundaries that govern who can access the commons and in what ways, have essentially been undermined through claims of universal access, or claims that there should be no boundaries whatsoever.
+
+But this claim of producing information free from boundaries is a happy lie we tell ourselves.
+We claim authorship for specific individuals involved in a study and not others, expect others to cite our work, and often want their work to be used in a way that is commensurate with their intentions, and not misrepresented.
+These are very reasonable expectations, and most researchers will adhere to them due to their common upbringing within a community of practice that instilled these norms.
+But outside actors who are not familiar with this decorum, or who simply refuse to adhere to these rules, are acting out of line, at least in the minds of those who expect or who are trying to foster respectful forms of community engagement.
+
+Determining who counts as an outsider or an insider does matter, however these distinctions are slippery and shifting.
+Moreover, they are not really tied to identity, but to the manner in which they engage with the community and its norms and values.
+In this paper I complicate some dichotomies between before and after, through the lens of collaborative commitments, or commitments to collective norms and values.
