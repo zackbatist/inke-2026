@@ -44,7 +44,7 @@ code-tools:
 code-overflow: wrap
 filters:
   - abstract-section
-  - count-para.lua
+  - assets/count-para.lua
 title-block-banner: plain
 crossref:
   custom:
