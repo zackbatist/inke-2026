@@ -1,6 +1,6 @@
 ---
-title: INKE-2026
-subtitle: ""
+title: Where do we draw the line?
+subtitle: On legitimate uses of AI and open information commons, and commitment to community values
 author:
   - name: Zachary Batist
     id: zb
@@ -22,12 +22,12 @@ date: last-modified
 date-format: "MMMM DD, YYYY"
 language:
   title-block-published: "Updated"
-keywords:
-  - x
-  - x
-  - x
-funding: |
-  x
+# keywords:
+#   - x
+#   - x
+#   - x
+# funding: |
+#   x
 citation:
   type: speech
   event-place: Université de Montréal
