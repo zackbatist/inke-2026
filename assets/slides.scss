@@ -1,0 +1,149 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "Source Code Pro", monospace;
+$presentation-font-size-root: 32px;
+$presentation-line-height: 1.5;
+
+$body-bg: #ffffff;
+$body-color: #1a1a1a;
+$link-color: #2a6496;
+
+$presentation-heading-font: $font-family-sans-serif;
+$presentation-heading-color: #1a1a1a;
+$presentation-heading-font-weight: 600;
+
+/*-- scss:rules --*/
+
+.reveal {
+  font-family: $font-family-sans-serif;
+}
+
+/* Section title slides (# with no text produces a blank header) */
+.reveal .slides section.title-slide,
+.reveal .slides section:has(> h1:only-child),
+.reveal .slides section > h1 {
+  text-align: left;
+}
+
+.reveal h1 {
+  font-size: 1.6em;
+  font-weight: 700;
+  border-bottom: 3px solid #1a1a1a;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+.reveal h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 0.15em;
+  margin-bottom: 0.5em;
+  color: #1a1a1a;
+}
+
+/* Section break slides (# alone) */
+.reveal .slides section.level1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+/* r-fit-text openers */
+.reveal .r-fit-text {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Block quotes used as key claims */
+.reveal blockquote {
+  border-left: 4px solid #2a6496;
+  padding: 0.4em 0.8em;
+  margin: 0.6em 0;
+  background: #f4f8fc;
+  font-style: normal;
+  color: #1a1a1a;
+  font-size: 0.95em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Tables */
+.reveal table {
+  font-size: 0.85em;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.reveal table th {
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 0.4em 0.6em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.reveal table td {
+  padding: 0.35em 0.6em;
+  border-bottom: 1px solid #dddddd;
+  vertical-align: top;
+}
+
+.reveal table tr:nth-child(even) td {
+  background: #f7f7f7;
+}
+
+/* Bullet lists */
+.reveal ul {
+  margin-left: 1.2em;
+  line-height: 1.6;
+}
+
+.reveal ul li {
+  margin-bottom: 0.25em;
+}
+
+/* Two-column layouts */
+.reveal .columns {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.reveal .column {
+  flex: 1;
+}
+
+/* Fragment emphasis */
+.reveal .fragment strong {
+  color: #1a1a1a;
+}
+
+/* Slide number */
+.reveal .slide-number {
+  font-size: 0.5em;
+  color: #999999;
+  background: none;
+}
+
+/* Small text utility (matches BibVik .small-text) */
+.reveal .small-text {
+  font-size: 0.7em;
+  color: #555555;
+  line-height: 1.4;
+}
+
+/* Speaker notes — not visible in presentation, styling for export */
+.reveal aside.notes {
+  font-size: 0.8em;
+}
+
+/* Thank you / closing slides */
+.reveal .slides section:last-of-type h1 {
+  border-bottom: none;
+  font-size: 2em;
+  margin-bottom: 0.8em;
+}

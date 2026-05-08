@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Quarto
+/.quarto/
+_site/
+site_libs/
+**/*.quarto_ipynb
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.tex
+
+# Notes (local only)
+notes/

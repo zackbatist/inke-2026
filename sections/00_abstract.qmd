@@ -1,8 +1,0 @@
-# Abstract
-Researchers presently face a tension between obligations to make their work openly accessible for public benefit, and the use of these materials to train artificial intelligence models, which have some questionable applications.
-However, this is not merely a product of AI's arrival on the scene, and in fact represents an inherent gap between the largely technical solutions that open science advocates propose (or impose), and the systemic, social problems that are deeply entrenched in research culture.
-This often manifests through new commitments for participating in and maintaining the commons that are not necessarily valued by the communities that actually make these commons possible, and to some extent even undermine the established norms that research communities have developed for themselves.
-Specifically, community norms, which previously served to establish the boundaries that govern who can contribute to and access the commons and in what ways, have essentially been undermined through claims of universal access, or claims that there should be no boundaries whatsoever.
-
-Indeed, "proper" use of big data, health data, data deriving from Indigenous sources, AI models, etc tend to be demarcated by the bounds of established professional decorum, values and principles, as determined by a discipline or community of practice.
-In this presentation I re-cast a few recent and persistent controversies surrounding the implementation of open information infrastructures (e.g., the Internet Archive's National Emergency Library, use and abuse of shadow libraries, etc) to highlight how collaborative commitments are either maintained or re-arranged throughout distinct applications of common resources, and why these relationships matter.
