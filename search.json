@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Where do we draw the line?",
+    "section": "",
+    "text": "Researchers presently face a tension between obligations to make their work openly accessible for public benefit, and the use of these materials to train artificial intelligence models, which have some questionable applications. However, this is not merely a product of AI’s arrival on the scene, and in fact represents an inherent gap between the largely technical solutions that open science advocates propose (or impose), and the systemic, social problems that are deeply entrenched in research culture. This often manifests through new commitments for participating in and maintaining the commons that are not necessarily valued by the communities that actually make these commons possible, and to some extent even undermine the established norms that research communities have developed for themselves. Specifically, community norms, which previously served to establish the boundaries that govern who can contribute to and access the commons and in what ways, have essentially been undermined through claims of universal access, or claims that there should be no boundaries whatsoever.\nIndeed, “proper” use of big data, health data, data deriving from Indigenous sources, AI models, etc tend to be demarcated by the bounds of established professional decorum, values and principles, as determined by a discipline or community of practice. In this presentation I re-cast a few recent and persistent controversies surrounding the implementation of open information infrastructures (e.g., the Internet Archive’s National Emergency Library, use and abuse of shadow libraries, etc) to highlight how collaborative commitments are either maintained or re-arranged throughout distinct applications of common resources, and why these relationships matter.\n\n\n\n\n\n\n\nNote\n\n\n\nSubmitted to the 13th annual gathering of the INKE Partnership, “Re-Defining Open Social Scholarship in an Age of Generative ‘Intelligence’”. Université de Montréal, June 4–5, 2026, coinciding with the Canadian Society for Digital Humanities annual conference and the Digital Humanities Summer Institute.\n\n\n\n\n\nReuseCC0 1.0CitationBibTeX citation:@unpublished{batist,\n  author = {Batist, Zachary},\n  title = {Where Do We Draw the Line?},\n  url = {https://zackbatist.info/inke-2026},\n  doi = {TBD},\n  langid = {en-CA}\n}\nFor attribution, please cite this work as:\nBatist, Zachary. n.d. “Where Do We Draw the Line?”\nUniversité de Montréal. https://doi.org/TBD."
+  },
+  {
+    "objectID": "slides.html#the-tension-were-told-exists",
+    "href": "slides.html#the-tension-were-told-exists",
+    "title": "Where do we draw the line?",
+    "section": "The tension we’re told exists",
+    "text": "The tension we’re told exists\nResearchers are obligated to share their work openly — for public benefit.\nThat work is being scraped to train AI models — for someone else’s benefit.\nWe are told this requires new rules, new laws, new technical fixes.\n\n\nBut this framing takes the status quo for granted.\nThe tension predates AI. The line was always there.\n\n\n\nThe dominant response to this tension has been technical and legal: opt-out registries, new licensing terms, robot exclusion standards, proposed legislation.\nThese aren’t wrong exactly, but they treat the problem as a novel disruption to an otherwise functioning system.\nMy argument is that the system was never quite as tidy as that framing implies."
+  },
+  {
+    "objectID": "slides.html#commons-are-social-systems",
+    "href": "slides.html#commons-are-social-systems",
+    "title": "Where do we draw the line?",
+    "section": "Commons are social systems",
+    "text": "Commons are social systems\nResearchers have always participated in information commons:\n\nCiting prior work, sharing data, building on others’ findings\nThese commons are scaffolded by norms and commitments — not just platforms and mandates\nInstilled through participation in communities of practice (Lave & Wenger)\n\n\n\n\nTechnical camp\nInfrastructures & mandates\nInformation as disembodied\nProblems are legalistic in nature\n\nHumanistic camp\nReforming science as inclusive\nKnowledge as socially situated\nProblems are rooted in culture\n\n\n\nThe technical camp dominates policy. The humanistic camp understands the actual problem.\n\n\nWhen researchers cite sources, share datasets, or build on prior work, they’re not just complying with policies — they’re participating in a set of shared expectations built up through training and community membership.\nThe open science movement has two distinct orientations. One is driven by infrastructure design and policy mandates. The other is concerned with reforming science as a more inclusive humanistic enterprise.\nThe trouble is that the former tends to impose new commitments on communities that didn’t ask for them, and in doing so, can undermine the norms those communities already had."
+  },
+  {
+    "objectID": "slides.html#the-no-boundaries-claim-is-a-happy-lie",
+    "href": "slides.html#the-no-boundaries-claim-is-a-happy-lie",
+    "title": "Where do we draw the line?",
+    "section": "The “no boundaries” claim is a happy lie",
+    "text": "The “no boundaries” claim is a happy lie\n“Universal access” sounds egalitarian.\nBut even the most committed open advocates expect citation, attribution, appropriate reuse.\n\nCommons have never been, and don’t need to be, egalitarian.\nThey are governed — who contributes, who accesses, in what ways.\n\n\nEven a grid on a spreadsheet draws explicit lines.\nFormalization is never neutral.\n\n\nThe boundary is not a wall. It’s a sniff test —\njudged by behavior, care, and commitment, not credentials alone.\n\n\nThe claim that open means boundary-free is a kind of wishful thinking.\nThe most open researchers still expect their work to be engaged with on its own terms — cited correctly, interpreted charitably, used in ways consistent with the intentions behind it.\nThese are expectations enforced not by law but by community membership. And communities are always making judgments about who is acting in good faith.\nThe sniff test is real. We make these judgments constantly, often without naming them."
+  },
+  {
+    "objectID": "slides.html#case-1-pdf-piracy",
+    "href": "slides.html#case-1-pdf-piracy",
+    "title": "Where do we draw the line?",
+    "section": "Case 1: PDF piracy",
+    "text": "Case 1: PDF piracy\n\n\nAaron Swartz\nShared academic papers widely\n→ Lionized\n\nMeta\nScraped LibGen at scale\n→ Condemned\n\n\nSame act. Radically different valence.\nOne serves the community — provides access to underserved members, contributes to the commons.\nThe other extracts from it — a predatory actor in it for themselves alone.\nThe difference is relational, not technical or legal.\n\n\nThis is the clearest case for showing that legitimacy isn’t about the act itself.\nSwartz is celebrated because his piracy was in service of the research community. He was a member of that community, acting in its interests.\nMeta’s scraping is condemned not because the technical act is different, but because Meta is an outside and threatening actor extracting value without contributing anything in return.\nThe same file changing hands. Two entirely different moral valences."
+  },
+  {
+    "objectID": "slides.html#case-2-the-internet-archive",
+    "href": "slides.html#case-2-the-internet-archive",
+    "title": "Where do we draw the line?",
+    "section": "Case 2: The Internet Archive",
+    "text": "Case 2: The Internet Archive\nThe National Emergency Library (2020) — granting access to books during Covid-19.\n\n\nInformed by professional archival principles ✓\nDriven by confidence in technical solutions to social problems ✗\nA genuinely ambiguous case — neither fully inside nor outside\n\n\n\nIt applied a technical resolution to an underlying social problem.\nThe resolution mattered. So did the manner of resolution.\n\n\nThe Internet Archive is a more complicated case, which is why it’s useful here.\nThe archival mission is legitimate and community-serving. But the National Emergency Library was also an example of a certain tech-driven confidence: the idea that you can resolve questions of access, copyright, and distribution through unilateral technical action.\nIt ended in lawsuits, partly because publishers felt the Archive had overstepped — not just legally, but in terms of the norms of how decisions about access get made.\nThe point isn’t that they were wrong to try. It’s that the manner of the intervention mattered as much as the outcome."
+  },
+  {
+    "objectID": "slides.html#case-3-big-data-archaeology",
+    "href": "slides.html#case-3-big-data-archaeology",
+    "title": "Where do we draw the line?",
+    "section": "Case 3: Big data archaeology",
+    "text": "Case 3: Big data archaeology\nComputer scientists publish high-profile papers “solving” archaeological problems with large integrated datasets.\n\n\n\n\n\n\n\n\n\n\nOutside the community\nInside the community\n\n\n\n\nTreatment of data\nNeutral, abstract, recombinant\nStoried, situated, historically laden\n\n\nEpistemic stance\nData at face value\nData as potentially mismatched\n\n\nCommunity response\nIntuitively rejected\nTreated with consideration\n\n\n\n\n\nThe difference is not credentials. It’s care —\nunderstanding a dataset’s circumstances of creation through community membership.\n\n\nAny archaeologist who reads these outsider papers will feel something is wrong before they can fully articulate why.\nIt’s because the data is being treated as neutral and abstract — as if knowing the variable names is the same as knowing what they mean.\nArchaeologists know that datasets carry histories. They know that a field record reflects the decisions of a particular excavator on a particular day, under particular conditions. That knowledge comes from having been trained as an archaeologist.\nWhen a computer scientist treats a dataset as a clean input to an algorithm, they’re not doing something illegal. They’re doing something epistemically careless. And the community can tell."
+  },
+  {
+    "objectID": "slides.html#ai-as-amplifier-not-origin",
+    "href": "slides.html#ai-as-amplifier-not-origin",
+    "title": "Where do we draw the line?",
+    "section": "AI as amplifier, not origin",
+    "text": "AI as amplifier, not origin\nWe put our data out there. We made it FAIR.\nWe imagined certain use-cases. Certain users.\n\nAI scraped it for different ends.\n\n\nThis is structurally similar to UNESCO World Heritage claims:\n“for all humanity” — often at the expense of those who inhabit and maintain the site.\n\n\nThe problem isn’t AI per se.\nIt’s AI deployed without community membership — without the gradual participation that builds the tacit knowledge to use data responsibly.\n\n\nWe did this. We built the infrastructure. We put our data out there and declared it open.\nThe FAIR principles — Findable, Accessible, Interoperable, Reusable — were designed with a certain kind of user in mind. Not language model training pipelines.\nThe UNESCO analogy is apt: when you declare something a common heritage of humanity, you create conditions for uses you never anticipated, and you can undermine the people who actually maintain the thing.\nAI didn’t break the commons. It exposed the gap between what we said the commons was for and what “open” actually meant in practice."
+  },
+  {
+    "objectID": "slides.html#is-it-being-done-by-humanists",
+    "href": "slides.html#is-it-being-done-by-humanists",
+    "title": "Where do we draw the line?",
+    "section": "Is it being done by humanists?",
+    "text": "Is it being done by humanists?\nHard boycotts of AI miss the nuance.\nThe question that actually matters:\n\n\nIs AI being done by humanists,\nor by engineers playing humanist\nfor an afternoon?\n\n\n\nA blanket boycott treats all AI use as equivalent — which is exactly the kind of category error I’ve been arguing against throughout this talk.\nThe question isn’t whether AI is involved. It’s who is doing the work, how it’s being done, whether it’s done with respect and care for the data and the community, and how truth claims are expressed.\nUsing AI locally, on device, for a specific research question, with explicit attention to its limitations — that looks very different from training a foundation model on scraped scholarship and selling access to it."
+  },
+  {
+    "objectID": "slides.html#humanities-defined-by-practice-not-data-type",
+    "href": "slides.html#humanities-defined-by-practice-not-data-type",
+    "title": "Where do we draw the line?",
+    "section": "Humanities defined by practice, not data type",
+    "text": "Humanities defined by practice, not data type\nHumanities is not defined by the kinds of data it uses.\nIt’s defined by the care and approaches we take —\nthe training, the community embedding, the commitments.\n\nYou can’t substitute a flashy method for a good question,\na rigorous orientation, or an open mind.\nTool-fetishizing has always been a dead end.\n\n\nThis is actually a case for humanists to engage with AI —\ncritically, carefully, on their own terms —\nbecause humanists are precisely well-equipped to do so.\n\n\nThis is ultimately a question about what makes work humanistic.\nIf it’s the data type — text, material culture, historical sources — then AI potentially threatens the boundary by operating on the same materials.\nBut if it’s the orientation — the care, the situatedness, the attention to how knowledge is made — then humanists are not just equipped to engage with AI, they’re better equipped than most to do so critically.\nWe already read sources against the grain. We already ask who produced this, under what conditions, with what intentions. That’s exactly what’s needed when evaluating AI-generated outputs."
+  }
+]
