@@ -13,6 +13,7 @@ site_libs/
 _extensions/
 **/*.quarto_ipynb
 .luarc.json
+index.html
 
 # LaTeX
 *.aux
