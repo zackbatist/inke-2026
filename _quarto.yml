@@ -1,0 +1,68 @@
+project:
+  type: website
+  title: INKE-2026
+  preview:
+    port: 7777
+    browser: false
+  render:
+    - "*.qmd"
+    - "!notes/"
+    - "!sections/"
+bibliography: assets/inke-2026.bib
+csl: assets/chicago-author-date.csl
+license: CC0
+website: 
+  title: "INKE-2026" 
+  site-url: https://zackbatist.info/inke-2026/
+  repo-url: https://github.com/zackbatist/inke-2026
+  repo-actions: none
+  bread-crumbs: true
+  page-navigation: false
+  back-to-top-navigation: false
+  # favicon: images/favicon.ico
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left:
+      - text: "CC0"
+        href: https://creativecommons.org/publicdomain/zero/1.0/
+  # sidebar:
+  #   # logo: "images/logo.png"
+  #   pinned: true
+  #   align: center
+  #   style: docked
+  #   search: false
+  #   collapse-level: 2
+  #   contents:
+  #     - href: index.qmd
+  #       text: Home
+  #     # - href: manuscript.qmd
+  #     #   text: Manuscript
+  #     - href: workshop.qmd
+  #       text: Workshop
+  #     - href: scratchpad.qmd
+  #       text: Scratchpad
+  #     - href: codebook.qmd
+  #       text: Codebook
+  #     - href: research-protocol.qmd
+  #       text: Research Protocol
+toc: true
+toc-depth: 3
+toc-expand: 2
+number-sections: true
+format:
+  html:
+    theme: cosmo
+    code-copy: true
+    code-overflow: wrap
+    page-layout: article
+    grid:
+      body-width: 1000px
+filters:
+  - quarto
+  # - assets/include-files.lua
+  # - assets/collect-citekeys.lua
+execute:
+  echo: false
+  message: false
+  warning: false
+  freeze: true

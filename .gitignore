@@ -69,3 +69,6 @@ sections/*.html
 sections/*_files/
 slides/images/unused/
 notes/
+
+**/*.quarto_ipynb
+site_libs/
