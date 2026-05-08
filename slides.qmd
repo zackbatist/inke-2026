@@ -7,9 +7,10 @@ format:
     width: 1280
     height: 720
     fig-align: center
-    self-contained: true
     toc: false
     number-sections: false
+    embed-resources: true
+    output-file: _site/slides.html
 ---
 
 #

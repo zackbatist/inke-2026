@@ -10,12 +10,6 @@ format:
     grid:
       margin-width: 500px
       body-width: 950px
-  revealjs:
-    output-file: slides
-    embed-resources: true
-    toc: false
-    slide-number: c/t
-    theme: [default, assets/slides.scss]
 ---
 
 :::: {.content-hidden when-format="revealjs"}
