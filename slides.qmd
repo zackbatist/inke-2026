@@ -10,15 +10,16 @@ format:
     toc: false
     number-sections: false
     embed-resources: true
-    output-file: _site/slides.html
+    template-partials:
+      - assets/title-slide.html
+filters:
+  - roughnotation
 ---
-
-#
 
 ::: {.r-fit-text}
 Researchers share their work openly.\
 AI consumes it at scale.\
-Is this a new problem, or an old one made visible?
+[Is this a new problem, or an old one made visible?]{.rn-fragment rn-type="highlight" rn-color="#f9e4b7"}
 :::
 
 ::: {.notes}
@@ -38,8 +39,8 @@ That work is being scraped to train AI models — for someone else's benefit.
 We are told this requires **new rules, new laws, new technical fixes**.
 
 ::: {.fragment}
-> But this framing takes the status quo for granted.\
-> The tension predates AI. The line was always there.
+But this framing takes the status quo for granted.\
+The tension predates AI. The line was always there.
 :::
 
 ::: {.notes}
@@ -56,7 +57,7 @@ Researchers have always participated in **information commons**:
 
 - Citing prior work, sharing data, building on others' findings
 - These commons are scaffolded by **norms and commitments** — not just platforms and mandates
-- Instilled through participation in communities of practice *(Lave & Wenger)*
+- Instilled through participation in communities of practice
 
 ::: {.fragment}
 ::: {.columns}
@@ -65,48 +66,49 @@ Researchers have always participated in **information commons**:
 
 Infrastructures & mandates\
 Information as disembodied\
-Problems are legalistic in nature
+[Problems are legalistic in nature]{.rn-fragment rn-type="bracket" rn-color="#999999" rn-brackets="bottom" rn-strokeWidth="3"}
 :::
 ::: {.column width="50%"}
 **Humanistic camp**
 
 Reforming science as inclusive\
 Knowledge as socially situated\
-Problems are rooted in culture
+[Problems are rooted in culture]{.rn-fragment rn-type="bracket" rn-color="#2a6496" rn-brackets="bottom" rn-strokeWidth="3"}
 :::
 :::
 :::
 
 ::: {.fragment}
-The technical camp dominates policy. The humanistic camp understands the actual problem.
+The technical camp dominates policy. [**The humanistic camp understands the actual problem.**]{.rn-fragment rn-type="underline" rn-color="#2a6496"}
 :::
 
 ::: {.notes}
-When researchers cite sources, share datasets, or build on prior work, they're not just complying with policies — they're participating in a set of shared expectations built up through training and community membership.
+Researchers have always participated in information commons — citing, sharing, building on prior work. But these commons are scaffolded by norms and commitments instilled through community membership, not just platforms or mandates.
 
-The open science movement has two distinct orientations. One is driven by infrastructure design and policy mandates. The other is concerned with reforming science as a more inclusive humanistic enterprise.
+The open science movement has two orientations that rarely talk to each other. The technical camp designs infrastructure and mandates — FAIR data, open access requirements, licensing frameworks. The humanistic camp is concerned with reforming science as a more inclusive, culturally aware enterprise.
 
-The trouble is that the former tends to impose new commitments on communities that didn't ask for them, and in doing so, can undermine the norms those communities already had.
+The technical camp sees problems as legalistic: access, interoperability, reproducibility. The humanistic camp sees problems as rooted in culture: who gets to participate, whose knowledge counts, how norms are negotiated.
+
+The technical camp dominates policy. But it's the humanistic camp that actually understands the problem — which is why we're here today talking about AI and commons rather than just filing a complaint with a licensing body.
 :::
 
 ## The "no boundaries" claim is a happy lie
 
 "Universal access" sounds egalitarian.
 
-But even the most committed open advocates expect **citation, attribution, appropriate reuse**.
+But even the most committed open advocates expect [**citation, attribution, appropriate reuse**]{.rn-fragment rn-type="circle" rn-color="#2a6496"}.
 
 ::: {.fragment}
 Commons have never been, and don't need to be, egalitarian.\
-They are **governed** — who contributes, who accesses, in what ways.
+They are [**governed**]{.rn-fragment rn-type="circle" rn-color="#2a6496"} — who contributes, who accesses, in what ways.
 :::
 
 ::: {.fragment}
-Even a grid on a spreadsheet draws explicit lines.\
-Formalization is never neutral.
+[Formalization is never neutral.]{.rn-fragment rn-type="underline" rn-color="#2a6496"}
 :::
 
 ::: {.fragment}
-The boundary is not a wall. It's a **sniff test** —\
+The boundary is not a wall. It's a [**sniff test**]{.rn-fragment rn-type="circle" rn-color="#2a6496"} —\
 judged by behavior, care, and commitment, not credentials alone.
 :::
 
@@ -129,7 +131,7 @@ Shared academic papers widely\
 → *Lionized*
 :::
 ::: {.column width="50%"}
-**Meta**\
+[**Meta**]{.rn-fragment rn-type="cross" rn-color="#c0392b"}\
 Scraped LibGen at scale\
 → *Condemned*
 :::
@@ -193,7 +195,7 @@ Computer scientists publish high-profile papers "solving" archaeological problem
 :::
 
 ::: {.fragment}
-The difference is not credentials. It's **care** —\
+The difference is not credentials. It's [**care**]{.rn-fragment rn-type="highlight" rn-color="#f9e4b7"} —\
 understanding a dataset's circumstances of creation through community membership.
 :::
 
@@ -301,7 +303,7 @@ more **porous** where appropriate,\
 
 ::: {.fragment}
 The line isn't gone.\
-It's ours to tend.
+It's [ours]{.rn-fragment rn-type="underline" rn-color="#2a6496"} to tend.
 :::
 
 ::: {.notes}

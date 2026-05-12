@@ -1,0 +1,38 @@
+<section id="title-slide">
+  <h1 class="title">Where do we draw the line?</h1>
+  <svg viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg" style="width:80%;max-width:800px;display:block;margin:0.8em auto;">
+    <path d="M10,30 Q32,8 55,30 Q78,52 100,30 Q122,8 145,30 Q168,52 190,30 Q212,8 235,30 Q258,52 280,30 Q302,8 325,30 Q348,52 370,30 Q392,8 415,30 Q438,52 460,30 Q482,8 505,30 Q528,52 550,30 Q572,8 595,30 Q618,52 640,30 Q662,8 685,30 Q708,52 730,30 Q752,8 775,30 Q798,52 820,30 Q842,8 865,30 Q888,52 900,38"
+      fill="none" stroke="#e8614a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"
+      id="squiggle-path"/>
+  </svg>
+  <p class="subtitle">On legitimate uses of AI and open information commons, and commitment to community values</p>
+  <p class="author">Zachary Batist</p>
+  <p class="date">June 4, 2026</p>
+  <script>
+    (function() {
+      function animateSquiggle() {
+        var path = document.getElementById('squiggle-path');
+        if (!path) return;
+        var length = path.getTotalLength();
+        path.style.transition = 'none';
+        path.style.strokeDasharray = length;
+        path.style.strokeDashoffset = length;
+        requestAnimationFrame(function() {
+          requestAnimationFrame(function() {
+            path.style.transition = 'stroke-dashoffset 1.8s ease-in-out';
+            path.style.strokeDashoffset = '0';
+          });
+        });
+      }
+      function loop() {
+        animateSquiggle();
+        setInterval(animateSquiggle, 3000);
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loop);
+      } else {
+        loop();
+      }
+    })();
+  </script>
+</section>

@@ -23,7 +23,7 @@ $presentation-heading-font-weight: 600;
 .reveal .slides section.title-slide,
 .reveal .slides section:has(> h1:only-child),
 .reveal .slides section > h1 {
-  text-align: left;
+  text-align: center;
 }
 
 .reveal h1 {
@@ -146,4 +146,8 @@ $presentation-heading-font-weight: 600;
   border-bottom: none;
   font-size: 2em;
   margin-bottom: 0.8em;
+}
+
+#title-slide h1 {
+  border-bottom: none;
 }
