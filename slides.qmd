@@ -12,6 +12,10 @@ format:
     embed-resources: true
     template-partials:
       - assets/title-slide.html
+    include-in-header: 
+      text: |
+        <link href="_extensions/quarto-ext/fontawesome/assets/css/all.css" rel="stylesheet">
+        <link href="_extensions/schochastics/academicons/assets/css/all.css"  rel="stylesheet">
 filters:
   - roughnotation
 ---
@@ -36,11 +40,12 @@ Researchers are obligated to share their work openly — for public benefit.
 
 That work is being scraped to train AI models — for someone else's benefit.
 
-We are told this requires **new rules, new laws, new technical fixes**.
+We are told this requires **new rules, new laws, new technical processes**.
 
 ::: {.fragment}
 But this framing takes the status quo for granted.\
-The tension predates AI. The line was always there.
+Translating data from original contexts to secondary applications has always been lossy.\
+This predates AI.
 :::
 
 ::: {.notes}
@@ -79,7 +84,7 @@ Knowledge as socially situated\
 :::
 
 ::: {.fragment}
-The technical camp dominates policy. [**The humanistic camp understands the actual problem.**]{.rn-fragment rn-type="underline" rn-color="#2a6496"}
+The technical camp dominates policy. [**The humanistic camp understands the actual problem.**]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
 :::
 
 ::: {.notes}
@@ -96,20 +101,20 @@ The technical camp dominates policy. But it's the humanistic camp that actually 
 
 "Universal access" sounds egalitarian.
 
-But even the most committed open advocates expect [**citation, attribution, appropriate reuse**]{.rn-fragment rn-type="circle" rn-color="#2a6496"}.
+But even the most committed open advocates expect [**citation, attribution, appropriate reuse**]{.rn-fragment rn-type="box" rn-color="#2a6496"}.
+
+[]()
 
 ::: {.fragment}
 Commons have never been, and don't need to be, egalitarian.\
-They are [**governed**]{.rn-fragment rn-type="circle" rn-color="#2a6496"} — who contributes, who accesses, in what ways.
+They are [**governed**]{.rn-fragment rn-type="underline" rn-color="#2a6496"} — who contributes, who accesses, in what ways.
 :::
 
-::: {.fragment}
-[Formalization is never neutral.]{.rn-fragment rn-type="underline" rn-color="#2a6496"}
-:::
+[]()
 
 ::: {.fragment}
-The boundary is not a wall. It's a [**sniff test**]{.rn-fragment rn-type="circle" rn-color="#2a6496"} —\
-judged by behavior, care, and commitment, not credentials alone.
+The boundary is not a wall. It's a **sniff test** —\
+[judged by behavior, care, and commitment, not credentials alone.]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=2}
 :::
 
 ::: {.notes}
@@ -131,7 +136,7 @@ Shared academic papers widely\
 → *Lionized*
 :::
 ::: {.column width="50%"}
-[**Meta**]{.rn-fragment rn-type="cross" rn-color="#c0392b"}\
+**Meta**\
 Scraped LibGen at scale\
 → *Condemned*
 :::
@@ -140,11 +145,13 @@ Scraped LibGen at scale\
 ::: {.fragment}
 Same act. Radically different valence.
 
-One **serves** the community — provides access to underserved members, contributes to the commons.
+[One **serves** the community]{.rn-fragment rn-type="highlight" rn-color="#FFDE64"} — provides access to underserved members, contributes to the commons.
 
-The other **extracts** from it — a predatory actor in it for themselves alone.
+[The other **extracts** from it]{.rn-fragment rn-type="highlight" rn-color="#FF746C"} — a predatory actor in it for themselves alone.
+:::
 
-**The difference is relational, not technical or legal.**
+::: {.fragment}
+[**The difference is relational, not technical or legal.**]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
 :::
 
 ::: {.notes}
@@ -164,12 +171,13 @@ The National Emergency Library (2020) — granting access to books during Covid-
 ::: {.fragment}
 - Informed by professional archival principles ✓
 - Driven by confidence in technical solutions to social problems ✗
-- A genuinely **ambiguous** case — neither fully inside nor outside
+- A genuinely ambiguous case — neither fully inside nor outside
 :::
 
 ::: {.fragment}
-It applied a technical resolution to an underlying social problem.\
-The resolution mattered. So did the manner of resolution.
+[It applied a technical resolution to an underlying social problem.]{.rn-fragment rn-type="highlight" rn-color="#FF746C"}\
+
+[The manner of the intervention mattered as much as the outcome.]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
 :::
 
 ::: {.notes}
@@ -184,19 +192,20 @@ The point isn't that they were wrong to try. It's that the manner of the interve
 
 ## Case 3: Big data archaeology
 
-Computer scientists publish high-profile papers "solving" archaeological problems with large integrated datasets.
+Computer scientists / data scientists / physicists publish high-profile papers "solving" archaeological problems with large integrated datasets.
 
 ::: {.fragment}
 | | Outside the community | Inside the community |
-|---|---|---|
-| Treatment of data | Neutral, abstract, recombinant | Storied, situated, historically laden |
-| Epistemic stance | Data at face value | Data as potentially mismatched |
+|--|---|---|
+| Treatment of data | Neutral, abstract, recombinant | Storied, situated, context-laden |
+| Epistemic stance | Data taken as source of universal truth | Contributing one point of view |
 | Community response | Intuitively rejected | Treated with consideration |
 :::
 
 ::: {.fragment}
-The difference is not credentials. It's [**care**]{.rn-fragment rn-type="highlight" rn-color="#f9e4b7"} —\
-understanding a dataset's circumstances of creation through community membership.
+[The difference is not credentials. It's **care**]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3} —\
+
+understanding a dataset's circumstances of creation comes from community membership.
 :::
 
 ::: {.notes}
@@ -220,12 +229,12 @@ AI scraped it for different ends.
 
 ::: {.fragment}
 This is structurally similar to UNESCO World Heritage claims:\
-*"for all humanity"* — often at the expense of those who inhabit and maintain the site.
+[*"for all humanity"*]{.rn-fragment rn-type="circle" rn-color="#2a6496"} — often at the expense of those who inhabit and maintain the site.
 :::
 
 ::: {.fragment}
-The problem isn't AI per se.\
-It's AI deployed **without community membership** — without the gradual participation that builds the tacit knowledge to use data responsibly.
+[The problem isn't AI per se.\
+It's AI deployed **without community membership**]{.rn-fragment rn-type="highlight" rn-color="#FFDE64" rn.multiline="true"} — without the gradual participation that builds the tacit knowledge to use data responsibly.
 :::
 
 ::: {.notes}
@@ -238,18 +247,12 @@ The UNESCO analogy is apt: when you declare something a common heritage of human
 AI didn't break the commons. It exposed the gap between what we said the commons was for and what "open" actually meant in practice.
 :::
 
-## Is it being done by humanists?
+---
 
-Hard boycotts of AI miss the nuance.
-
-The question that actually matters:
-
-::: {.fragment}
 ::: {.r-fit-text}
 Is AI being done *by* humanists,\
 or by engineers playing humanist\
 for an afternoon?
-:::
 :::
 
 ::: {.notes}
@@ -264,20 +267,20 @@ Using AI locally, on device, for a specific research question, with explicit att
 
 Humanities is not defined by the kinds of data it uses.
 
-It's defined by the **care and approaches** we take —\
-the training, the community embedding, the commitments.
+[It's defined by the **care and approaches** we take —\
+the training, the community embedding, the commitments.]{.rn-fragment rn-type="highlight" rn-color="#FFDE64" rn.multiline="true"}
 
 ::: {.fragment}
 You can't substitute a flashy method for a good question,\
 a rigorous orientation, or an open mind.
 
-Tool-fetishizing has always been a dead end.
+[Tool-fetishizing has always been a dead end.]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
 :::
 
 ::: {.fragment}
-This is actually a case for humanists to **engage** with AI —\
+This is actually a case for humanists to engage with AI —\
 critically, carefully, on their own terms —\
-because humanists are precisely well-equipped to do so.
+because [humanists are precisely well-equipped to do so.]{.rn-fragment rn-type="highlight" rn-color="#88E788"}
 :::
 
 ::: {.notes}
@@ -296,14 +299,14 @@ Re-defining open social scholarship is not about\
 redrawing the line from scratch.
 
 ::: {.fragment}
-It's about making the existing lines more **legible** —\
+[It's about making the existing lines more **legible** —\
 more **porous** where appropriate,\
-**defended** where they matter.
+**defended** where they matter.]{.rn-fragment rn-type="highlight" rn-color="#C3B1E1" rn-multiline="true"}
 :::
 
 ::: {.fragment}
 The line isn't gone.\
-It's [ours]{.rn-fragment rn-type="underline" rn-color="#2a6496"} to tend.
+It's [ours]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3} to tend.
 :::
 
 ::: {.notes}
