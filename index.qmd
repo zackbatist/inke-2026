@@ -1,15 +1,12 @@
 ---
-citation:
-  type: speech
-  event-place: Université de Montréal
-  event-title: INKE 2026 Gathering
-  doi: TBD
-  url: https://zackbatist.info/inke-2026
 format:
   html:
+    theme: cosmo
     grid:
       margin-width: 500px
       body-width: 950px
+    include-in-header:
+    - assets/styles.html
 ---
 
 :::: {.content-hidden when-format="revealjs"}

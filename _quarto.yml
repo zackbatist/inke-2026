@@ -22,8 +22,9 @@ csl: assets/chicago-author-date.csl
 license: CC0
 lang: en-CA
 
-format:
-  html:
-    theme: cosmo
-    include-in-header:
-    - assets/styles.html
+citation:
+  type: speech
+  event-place: Université de Montréal
+  event-title: INKE 2026 Gathering
+  doi: TBD
+  url: https://zackbatist.info/inke-2026
