@@ -12,12 +12,27 @@ format:
     embed-resources: true
     template-partials:
       - assets/title-slide.html
-    include-in-header: 
+    include-in-header:
       text: |
         <link href="_extensions/quarto-ext/fontawesome/assets/css/all.css" rel="stylesheet">
         <link href="_extensions/schochastics/academicons/assets/css/all.css"  rel="stylesheet">
+    include-after-body:
+      text: |
+        <script>
+        Reveal.on('fragmentshown', event => {
+          if (event.fragment.classList.contains('shoot-confetti')) {
+            confetti({
+              particleCount: 150,
+              spread: 80,
+              origin: { y: 0.6 }
+            });
+          }
+        });
+        </script>
 filters:
   - roughnotation
+revealjs-plugins:
+  - confetti
 ---
 
 ::: {.r-fit-text}
@@ -29,40 +44,40 @@ AI consumes it at scale.\
 ::: {.notes}
 I want to start with a provocation rather than a thesis.
 
-The tension between open scholarship and AI is real — but I don't think it's new. I think AI has made visible a set of tensions that were always present in how we think about open information commons.
+The tension between open scholarship and AI is real — but I don't think it's new.
+
+☞ I think AI has made visible a set of tensions that were always present in how we think about open information commons.
 
 This talk is about those tensions, and what a social rather than technical lens reveals about them.
 :::
 
-## The tension we're told exists
-
-Researchers are obligated to share their work openly — for public benefit.
-
-That work is being scraped to train AI models — for someone else's benefit.
-
-We are told this requires **new rules, new laws, new technical processes**.
-
-::: {.fragment}
-But this framing takes the status quo for granted.\
-Translating data from original contexts to secondary applications has always been lossy.\
-This predates AI.
-:::
-
-::: {.notes}
-The dominant response to this tension has been technical and legal: opt-out registries, new licensing terms, robot exclusion standards, proposed legislation.
-
-These aren't wrong exactly, but they treat the problem as a novel disruption to an otherwise functioning system.
-
-My argument is that the system was never quite as tidy as that framing implies.
-:::
-
 ## Commons are social systems
 
+::: {.fragment}
 Researchers have always participated in **information commons**:
 
 - Citing prior work, sharing data, building on others' findings
-- These commons are scaffolded by **norms and commitments** — not just platforms and mandates
+- These commons are scaffolded by [norms and commitments]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=2} — not just platforms and mandates
 - Instilled through participation in communities of practice
+:::
+
+::: {.fragment}
+Science reform operates by implementing **new rules, new laws, new technical processes**.
+:::
+
+::: {.notes}
+So what makes that kind of engagement possible? And what threatens it?
+
+☞ Researchers have always participated in information commons — citing, sharing, building on prior work.
+
+☞ But these commons are scaffolded by norms and commitments instilled through community membership, not just platforms or mandates.
+
+☞ However, we are increasingly being told that opening our research requires new rules, new laws, and new technical processes - which may contradict or disrupt established norms and traditions.
+
+While some significant changes may be warranted, they must be implemented with care.
+:::
+
+## Commons are social systems
 
 ::: {.fragment}
 ::: {.columns}
@@ -71,30 +86,39 @@ Researchers have always participated in **information commons**:
 
 Infrastructures & mandates\
 Information as disembodied\
-[Problems are legalistic in nature]{.rn-fragment rn-type="bracket" rn-color="#999999" rn-brackets="bottom" rn-strokeWidth="3"}
+Problems are legalistic in nature
 :::
 ::: {.column width="50%"}
 **Humanistic camp**
 
 Reforming science as inclusive\
 Knowledge as socially situated\
-[Problems are rooted in culture]{.rn-fragment rn-type="bracket" rn-color="#2a6496" rn-brackets="bottom" rn-strokeWidth="3"}
+Problems are rooted in culture
 :::
 :::
 :::
 
 ::: {.fragment}
-The technical camp dominates policy. [**The humanistic camp understands the actual problem.**]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
+The technical camp dominates policy.\
+[**The humanistic camp is better equipped to understand the actual problem.**]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
 :::
 
 ::: {.notes}
-Researchers have always participated in information commons — citing, sharing, building on prior work. But these commons are scaffolded by norms and commitments instilled through community membership, not just platforms or mandates.
+☞ The open science movement has two orientations that rarely talk to each other. A technical camp designs infrastructure and mandates — FAIR data, open access requirements, licensing frameworks, whereas a humanistic camp is concerned with reforming science as a more inclusive, culturally aware enterprise.
 
-The open science movement has two orientations that rarely talk to each other. The technical camp designs infrastructure and mandates — FAIR data, open access requirements, licensing frameworks. The humanistic camp is concerned with reforming science as a more inclusive, culturally aware enterprise.
+The technical camp sees problems as legalistic: access, interoperability, reproducibility, and the humanistic camp sees problems as rooted in culture: who gets to participate, whose knowledge counts, how norms are negotiated.
 
-The technical camp sees problems as legalistic: access, interoperability, reproducibility. The humanistic camp sees problems as rooted in culture: who gets to participate, whose knowledge counts, how norms are negotiated.
+☞ The technical camp dominates policy.
 
-The technical camp dominates policy. But it's the humanistic camp that actually understands the problem — which is why we're here today talking about AI and commons rather than just filing a complaint with a licensing body.
+☞ But it's the humanistic camp is better equipped to understand the actual problem — which is why we're here today talking about AI and commons rather than just filing a complaint with a licensing body.
+
+But before I continue, I want to be upfront about where I'm coming from.
+
+I do use AI in my work. I use commercial tools to develop data processing pipelines that I would not otherwise be able to make, I use local models as part of extended text analysis toolchains, and I generally find it handy as a reflexive tool to enter in dialog with myself.
+
+But I also think it's important to do these things with care and with critical thought.
+
+I use these tools as methods, not as sources of truth, and as I'll argue here today, this makes a world of a difference.
 :::
 
 ## The "no boundaries" claim is a happy lie
@@ -103,14 +127,10 @@ The technical camp dominates policy. But it's the humanistic camp that actually 
 
 But even the most committed open advocates expect [**citation, attribution, appropriate reuse**]{.rn-fragment rn-type="box" rn-color="#2a6496"}.
 
-[]()
-
 ::: {.fragment}
 Commons have never been, and don't need to be, egalitarian.\
 They are [**governed**]{.rn-fragment rn-type="underline" rn-color="#2a6496"} — who contributes, who accesses, in what ways.
 :::
-
-[]()
 
 ::: {.fragment}
 The boundary is not a wall. It's a **sniff test** —\
@@ -118,13 +138,15 @@ The boundary is not a wall. It's a **sniff test** —\
 :::
 
 ::: {.notes}
-The claim that open means boundary-free is a kind of wishful thinking.
+That distinction between using tools as methods, with care, in compliance with community norms and values, is exactly what open science policy tends to flatten.
 
-The most open researchers still expect their work to be engaged with on its own terms — cited correctly, interpreted charitably, used in ways consistent with the intentions behind it.
+It declares "universal access" as if no conditions exist, but they always have — they're just implicit.
 
-These are expectations enforced not by law but by community membership. And communities are always making judgments about who is acting in good faith.
+☞ Even open science's most committed advocates claim ownership of their creative outputs, and expect their work to be cited, engaged with charitably, and used in ways consistent with its intent.
 
-The sniff test is real. We make these judgments constantly, often without naming them.
+☞ In this sense, open commons have always been ☞ governed. We actually impose strict controls over who may contribute and extract from the commons, and in what ways.
+
+☞ The mechanism for enforcing these rules are rarely formal. It's more of a sensibility — ☞ a judgment about whether someone is engaging in good faith, with care, with some understanding of what they're working with. Credentials don't confer that. Community membership does.
 :::
 
 ## Case 1: PDF piracy
@@ -133,20 +155,26 @@ The sniff test is real. We make these judgments constantly, often without naming
 ::: {.column width="50%"}
 **Aaron Swartz**\
 Shared academic papers widely\
-→ *Lionized*
+→ *Celebrated*
 :::
 ::: {.column width="50%"}
+::: {.fragment}
 **Meta**\
 Scraped LibGen at scale\
 → *Condemned*
 :::
 :::
+:::
 
 ::: {.fragment}
 Same act. Radically different valence.
+:::
 
-[One **serves** the community]{.rn-fragment rn-type="highlight" rn-color="#FFDE64"} — provides access to underserved members, contributes to the commons.
+::: {.fragment}
+[One **serves** the community]{.rn-fragment rn-type="highlight" rn-color="#FFDE64"} — makes research available to people who can't get it any other way, and adds to the commons in doing so.
+:::
 
+::: {.fragment}
 [The other **extracts** from it]{.rn-fragment rn-type="highlight" rn-color="#FF746C"} — a predatory actor in it for themselves alone.
 :::
 
@@ -155,13 +183,19 @@ Same act. Radically different valence.
 :::
 
 ::: {.notes}
-This is the clearest case for showing that legitimacy isn't about the act itself.
+Aaron Swartz downloaded millions of academic papers and planned to release them publicly. The research community celebrated him for it.
 
-Swartz is celebrated because his piracy was in service of the research community. He was a member of that community, acting in its interests.
+☞ Meta scraped LibGen to train its models — an outside actor with nothing invested in the commons, and the community condemned them for it.
 
-Meta's scraping is condemned not because the technical act is different, but because Meta is an outside and threatening actor extracting value without contributing anything in return.
+☞ Same act. Radically different valence.
 
-The same file changing hands. Two entirely different moral valences.
+☞ Swartz serves the community — makes research available to people who can't get it any other way, ☞ and adds to the commons in doing so.
+
+☞ Meta extracts from it — ☞ a predatory actor with no stake in what it takes.
+
+☞ The difference isn't technical. It isn't even legal. It's relational.
+
+☞
 :::
 
 ## Case 2: The Internet Archive
@@ -169,25 +203,33 @@ The same file changing hands. Two entirely different moral valences.
 The National Emergency Library (2020) — granting access to books during Covid-19.
 
 ::: {.fragment}
-- Informed by professional archival principles ✓
-- Driven by confidence in technical solutions to social problems ✗
-- A genuinely ambiguous case — neither fully inside nor outside
+- [Informed by professional archival principles]{.rn-fragment rn-type="highlight" rn-color="#FFDE64"} ✓
+- [Driven by confidence in technical solutions to social problems]{.rn-fragment rn-type="highlight" rn-color="#FF746C"} ✗
 :::
 
 ::: {.fragment}
-[It applied a technical resolution to an underlying social problem.]{.rn-fragment rn-type="highlight" rn-color="#FF746C"}\
+It applied a technical resolution to an underlying social problem.\
 
-[The manner of the intervention mattered as much as the outcome.]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
+[The manner of the intervention mattered as much as the outcome.]{.rn-fragment rn-type="underline" rn-color="#2a6496"}
 :::
 
 ::: {.notes}
 The Internet Archive is a more complicated case, which is why it's useful here.
 
-The archival mission is legitimate and community-serving. But the National Emergency Library was also an example of a certain tech-driven confidence: the idea that you can resolve questions of access, copyright, and distribution through unilateral technical action.
+☞ The archival mission is legitimate and community-serving. But the National Emergency Library was also an example of a certain tech-driven confidence: the idea that you can resolve questions of access, copyright, and distribution through unilateral technical action.
 
 It ended in lawsuits, partly because publishers felt the Archive had overstepped — not just legally, but in terms of the norms of how decisions about access get made.
 
 The point isn't that they were wrong to try. It's that the manner of the intervention mattered as much as the outcome.
+:::
+
+## Case 3: Big data archaeology
+
+Archaeology produces a lot of data.\
+Much of it is now publicly available.
+
+::: {.fragment}
+What happens when outsiders use it?
 :::
 
 ## Case 3: Big data archaeology
@@ -203,9 +245,8 @@ Computer scientists / data scientists / physicists publish high-profile papers "
 :::
 
 ::: {.fragment}
-[The difference is not credentials. It's **care**]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3} —\
-
-understanding a dataset's circumstances of creation comes from community membership.
+[The difference is not credentials. It's **care** —\
+understanding a dataset's circumstances of creation comes from community membership.]{.rn-fragment rn-type="highlight" rn-color="#FFDE64" rn.multiline=true}
 :::
 
 ::: {.notes}
@@ -250,7 +291,7 @@ AI didn't break the commons. It exposed the gap between what we said the commons
 ---
 
 ::: {.r-fit-text}
-Is AI being done *by* humanists,\
+Is AI being done by humanists,\
 or by engineers playing humanist\
 for an afternoon?
 :::
@@ -277,10 +318,9 @@ a rigorous orientation, or an open mind.
 [Tool-fetishizing has always been a dead end.]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
 :::
 
-::: {.fragment}
-This is actually a case for humanists to engage with AI —\
-critically, carefully, on their own terms —\
-because [humanists are precisely well-equipped to do so.]{.rn-fragment rn-type="highlight" rn-color="#88E788"}
+::: {.fragment style="padding-top: 5px;"}
+[Humanists are extremely well-equipped to engage with AI —\
+critically, carefully, on their own terms]{.rn-fragment rn-type="highlight" rn-color="#F3A6C8" rn.multiline=true}
 :::
 
 ::: {.notes}
@@ -321,5 +361,11 @@ Thank you.
 
 # Thank you
 
-These slides and the abstract are available at:\
+::: {.fragment .shoot-confetti}
+<div style="position:relative;z-index:1;">
+These slides, speaker notes and abstract are available at
 [zackbatist.info/inke-2026](https://zackbatist.info/inke-2026)
+
+Archived on Knowledge Commons at DOI: XXXX
+</div>
+:::
