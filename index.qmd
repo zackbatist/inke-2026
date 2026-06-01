@@ -6,13 +6,14 @@ format:
       margin-width: 500px
       body-width: 950px
     include-in-header:
-    - assets/styles.html
+      - assets/styles.html
   revealjs:
     output-file: slides
     embed-resources: true
     toc: false
     slide-number: c/t
     theme: [default, assets/slides.scss]
+    format-links: false
 format-links:
   - format: revealjs
     text: Slides
