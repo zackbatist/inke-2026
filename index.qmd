@@ -7,6 +7,11 @@ format:
       body-width: 950px
     include-in-header:
     - assets/styles.html
+format-links:
+  - format: revealjs
+    text: Slides
+    href: slides.html
+    icon: easel
 ---
 
 :::: {.content-hidden when-format="revealjs"}
