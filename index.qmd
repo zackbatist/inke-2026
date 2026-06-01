@@ -11,6 +11,9 @@ format:
       - text: Slides
         href: slides.html
         icon: easel
+      - text: Speaker Notes
+        href: speaker-notes.html
+        icon: chat-left-dots
 ---
 
 :::: {.content-hidden when-format="revealjs"}

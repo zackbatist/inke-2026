@@ -29,8 +29,14 @@ format:
           }
         });
         </script>
+  html:
+    output-file: speaker-notes.html
+speakernotes:
+  displayNotes: true
+  notesTitle: ""
 filters:
   - roughnotation
+  - speakernotes
 revealjs-plugins:
   - confetti
 ---
