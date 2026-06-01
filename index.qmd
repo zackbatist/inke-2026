@@ -28,7 +28,7 @@ Indeed, "proper" use of big data, health data, data deriving from Indigenous sou
 
 :::{.callout-note}
 
-Submitted to the 13th annual gathering of the [INKE](https://inke.ca/) Partnership, "Re-Defining Open Social Scholarship in an Age of Generative 'Intelligence'". Université de Montréal, June 4–5, 2026, coinciding with the [Canadian Society for Digital Humanities](https://csdh-schn.ca/) annual conference and the [Digital Humanities Summer Institute](https://dhsi.org/).
+Presented at the 2026 [INKE](https://inke.ca/) gathering, "Re-Defining Open Social Scholarship in an Age of Generative 'Intelligence'". Université de Montréal, June 4–5, 2026, coinciding with the [Canadian Society for Digital Humanities](https://csdh-schn.ca/) annual conference and the [Digital Humanities Summer Institute](https://dhsi.org/).
 
 :::
 
