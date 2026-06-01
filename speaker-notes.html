@@ -40,7 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2d0ff335d2bd34505d5e7eeb02bfb2f5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ff63373b1067ca6f91cf1456aa1f00a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/roughnotation-0.5.1/rough-notation.iife.js"></script>
+<script src="site_libs/quarto-contrib/roughnotation-init-1.0.0/rough.js"></script>
+<link href="site_libs/quarto-contrib/roughnotation-init-1.0.0/rough.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/roughnotation-flourish-bridge-1.0.0/flourish-bridge.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,39 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style type="text/css">
-  #quarto-document-content {
-    text-align: justify;
-  }
-  .abstract {
-    text-align: justify;
-  }
-  .quarto-alternate-formats {
-    margin-top: 10.9rem;
-  }
-  #quarto-citation .quarto-appendix-secondary-label,
-  #quarto-citation .csl-entry {
-    display: none;
-  }
-  #quarto-appendix {
-    margin-bottom: 0;
-  }
-  #quarto-citation {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  footer.footer {
-    display: none;
-  }
-  .quarto-other-links {
-  margin-top: 10.9rem;
-}
+
+<style>
+div.notes{border: solid; padding: 0.5em; background-color: white; border-color: red;}
 </style>
 
-
-</head>
-
-<body class="quarto-light">
+</head><body class="quarto-light">
 
 <div id="quarto-search-results"></div>
 <!-- content -->
@@ -109,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="slides.html"><i class="bi bi-easel"></i>Slides</a></li><li><a href="speaker-notes.html"><i class="bi bi-chat-left-dots"></i>Speaker Notes</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -146,25 +123,318 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="abstract">
-<p>Researchers presently face a tension between obligations to make their work openly accessible for public benefit, and the use of these materials to train artificial intelligence models, which have some questionable applications. However, this is not merely a product of AI’s arrival on the scene, and in fact represents an inherent gap between the largely technical solutions that open science advocates propose (or impose), and the systemic, social problems that are deeply entrenched in research culture. This often manifests through new commitments for participating in and maintaining the commons that are not necessarily valued by the communities that actually make these commons possible, and to some extent even undermine the established norms that research communities have developed for themselves. Specifically, community norms, which previously served to establish the boundaries that govern who can contribute to and access the commons and in what ways, have essentially been undermined through claims of universal access, or claims that there should be no boundaries whatsoever.</p>
-<p>Indeed, “proper” use of big data, health data, data deriving from Indigenous sources, AI models, etc tend to be demarcated by the bounds of established professional decorum, values and principles, as determined by a discipline or community of practice. In this presentation I re-cast a few recent and persistent controversies surrounding the implementation of open information infrastructures (e.g., the Internet Archive’s National Emergency Library, use and abuse of shadow libraries, etc) to highlight how collaborative commitments are either maintained or re-arranged throughout distinct applications of common resources, and why these relationships matter.</p>
+<div class="r-fit-text">
+<p>Researchers share their work openly.<br>
+AI consumes it at scale.<br>
+<span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#f9e4b7">Is this a new problem, or an old one made visible?</span></p>
 </div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<div class="notes">
+<p>I want to start with a provocation rather than a thesis.</p>
+<p>The tension between open scholarship and AI is real — but I don’t think it’s new.</p>
+<p>☞ I think AI has made visible a set of tensions that were always present in how we think about open information commons.</p>
+<p>This talk is about those tensions, and what a social rather than technical lens reveals about them.</p>
+<p>☞</p>
 </div>
-<div class="callout-title-container flex-fill">
-Note
+<section id="commons-are-social-systems" class="level2">
+<h2 class="anchored" data-anchor-id="commons-are-social-systems">Commons are social systems</h2>
+<div class="fragment">
+<p>Researchers have always participated in <strong>information commons</strong>:</p>
+<ul>
+<li>Citing prior work, sharing data, building on others’ findings</li>
+<li>These commons are scaffolded by <span class="rn-fragment fragment" data-rn-type="underline" data-rn-color="#2a6496" data-rn-strokewidth="2">norms and commitments</span> — not just platforms and mandates</li>
+<li>Instilled through participation in communities of practice</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Science reform operates by implementing <strong>new rules, new laws, new technical processes</strong>.</p>
+</div>
+<div class="notes">
+<p>So what makes that kind of engagement possible? And what threatens it?</p>
+<p>☞ Researchers have always participated in information commons — citing, sharing, building on prior work.</p>
+<p>☞ But these commons are scaffolded by norms and commitments instilled through community membership, not just platforms or mandates.</p>
+<p>☞ However, we are increasingly being told that opening our research requires new rules, new laws, and new technical processes - which may contradict or disrupt established norms and traditions.</p>
+<p>While some significant changes may be warranted, they must be implemented with care.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="commons-are-social-systems-1" class="level2">
+<h2 class="anchored" data-anchor-id="commons-are-social-systems-1">Commons are social systems</h2>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Technical camp</strong></p>
+<p>Infrastructures &amp; mandates<br>
+Information as disembodied<br>
+Problems are legalistic in nature</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Humanistic camp</strong></p>
+<p>Reforming science as inclusive<br>
+Knowledge as socially situated<br>
+Problems are rooted in culture</p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Presented at the 2026 <a href="https://inke.ca/">INKE</a> gathering, “Re-Defining Open Social Scholarship in an Age of Generative ‘Intelligence’”. Université de Montréal, June 4–5, 2026, coinciding with the <a href="https://csdh-schn.ca/">Canadian Society for Digital Humanities</a> annual conference and the <a href="https://dhsi.org/">Digital Humanities Summer Institute</a>.</p>
 </div>
+<div class="fragment">
+<p>The technical camp dominates policy.<br>
+<span class="rn-fragment fragment" data-rn-type="underline" data-rn-color="#2a6496" data-rn-strokewidth="3"><strong>The humanistic camp is better equipped to understand the actual problem.</strong></span></p>
+</div>
+<div class="notes">
+<p>☞ The open science movement has two orientations that rarely talk to each other. A technical camp designs infrastructure and mandates — FAIR data, open access requirements, licensing frameworks, whereas a humanistic camp is concerned with reforming science as a more inclusive, culturally aware enterprise.</p>
+<p>The technical camp sees problems as legalistic: access, interoperability, reproducibility, and the humanistic camp sees problems as rooted in culture: who gets to participate, whose knowledge counts, how norms are negotiated.</p>
+<p>☞ The technical camp dominates policy.</p>
+<p>☞ But the humanistic camp is better equipped to understand the actual problems — which is why we’re here today talking about AI and commons rather than just filing a complaint with a licensing body.</p>
+<p>But before I continue, I want to be upfront about where I’m coming from.</p>
+<p>I do use AI in my work. I use commercial tools to develop data processing pipelines that I would not otherwise be able to make, I use local models as part of extended text analysis toolchains, and I generally find it handy as a reflexive tool to enter in dialog with myself.</p>
+<p>But I also think it’s important to do these things with care and with critical thought.</p>
+<p>I use these tools as methods, not as sources of truth, and as I’ll argue here today, this makes a world of a difference.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="the-no-boundaries-claim-is-a-happy-lie" class="level2">
+<h2 class="anchored" data-anchor-id="the-no-boundaries-claim-is-a-happy-lie">The “no boundaries” claim is a happy lie</h2>
+<p>“Universal access” sounds egalitarian.</p>
+<p>But even the most committed open advocates expect <span class="rn-fragment fragment" data-rn-type="box" data-rn-color="#2a6496"><strong>citation, attribution, appropriate reuse</strong></span>.</p>
+<div class="fragment">
+<p>Commons have never been, and don’t need to be, egalitarian.<br>
+They are <span class="rn-fragment fragment" data-rn-type="underline" data-rn-color="#2a6496"><strong>governed</strong></span> — who contributes, who accesses, in what ways.</p>
+</div>
+<div class="fragment">
+<p>The boundary is not a wall. It’s a <strong>sniff test</strong> —<br>
+<span class="rn-fragment fragment" data-rn-type="underline" data-rn-color="#2a6496" data-rn-strokewidth="2">judged by behavior, care, and commitment, not credentials alone.</span></p>
+</div>
+<div class="notes">
+<p>That distinction between using tools as methods, with care, in compliance with community norms and values, is exactly what open science policy tends to flatten.</p>
+<p>It declares “universal access” as if no conditions exist, but they always have — they’re just implicit.</p>
+<p>☞ Even open science’s most committed advocates claim ownership of their creative outputs, and expect their work to be cited, engaged with charitably, and used in ways consistent with its intent.</p>
+<p>☞ In this sense, open commons have always been ☞ governed.</p>
+<p>We actually impose strict controls over who may contribute and extract from the commons, and in what ways.</p>
+<p>☞ The mechanism for enforcing these rules are rarely formal. It’s more of a sensibility —</p>
+<p>☞ a judgment about whether someone is engaging in good faith, with care, with some understanding of what they’re working with. Credentials don’t confer that. Community membership does.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="case-1-pdf-piracy" class="level2">
+<h2 class="anchored" data-anchor-id="case-1-pdf-piracy">Case 1: PDF piracy</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<p><strong>Aaron Swartz</strong><br>
+Shared academic papers widely<br>
+→ <em>Celebrated</em></p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><strong>Meta</strong><br>
+Scraped LibGen at scale<br>
+→ <em>Condemned</em></p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Same act. Radically different valence.</p>
+</div>
+<div class="fragment">
+<p><span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#FFDE64">One <strong>serves</strong> the community</span> — makes research available to people who can’t get it any other way, and adds to the commons in doing so.</p>
+</div>
+<div class="fragment">
+<p><span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#FF746C">The other <strong>extracts</strong> from it</span> — a predatory actor in it for themselves alone.</p>
+</div>
+<div class="fragment">
+<p><span class="rn-fragment fragment" data-rn-type="underline" data-rn-color="#2a6496" data-rn-strokewidth="3"><strong>The difference is relational, not technical or legal.</strong></span></p>
+</div>
+<div class="notes">
+<p>One example is the different ways we address PDF piracy.</p>
+<p>☞ Aaron Swartz famously downloaded millions of academic papers and planned to release them publicly. The research community celebrated him for it.</p>
+<p>☞ Meta scraped LibGen to train its models — an outside actor with nothing invested in the commons, and the community condemned them for it.</p>
+<p>☞ They engaged in the same act, but with radically different valence.</p>
+<p>☞ ☞ Swartz served the community — made research available to people who couldn’t get it any other way, and in this way, he added to the commons.</p>
+<p>☞ ☞ Meta extracts from it — a predatory actor with no stake in what it takes.</p>
+<p>☞ ☞ The difference isn’t technical, or even legal. It’s relational.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="case-2-the-internet-archive" class="level2">
+<h2 class="anchored" data-anchor-id="case-2-the-internet-archive">Case 2: The Internet Archive</h2>
+<p>The National Emergency Library (2020) — granting access to books during Covid-19.</p>
+<div class="fragment">
+<ul>
+<li><span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#FFDE64">Legitimate, community-serving initiative</span> ✓</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#FF746C">Driven by confidence in technical solutions to social problems</span> ✗</li>
+</ul>
+</div>
+<div class="fragment">
+<p><span class="rn-fragment fragment" data-rn-type="underline" data-rn-color="#2a6496">The manner of the intervention mattered as much as the outcome.</span></p>
+</div>
+<div class="notes">
+<p>The Internet Archive’s National Emergency Library is a more complicated case.</p>
+<p>During the Covid-19 pandemic, it set out to make books more readily available as a public service.</p>
+<p>☞ ☞ Their mission was legitimate and community-serving, even if it did not entirely adhere with professional archival and legal principles.</p>
+<p>☞ ☞ But it was also an example of a certain tech-driven confidence: the idea that you can resolve questions of access, copyright, and distribution through unilateral technical action.</p>
+<p>It ended in lawsuits that set legal precedent for how similar actions may proceed in the future, which complicates the IA’s identity as a leading actor in the archival community.</p>
+<p>☞ ☞ The point isn’t that they were wrong to try. It’s that the manner of the intervention mattered as much as the outcome.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="case-3-big-data-archaeology" class="level2">
+<h2 class="anchored" data-anchor-id="case-3-big-data-archaeology">Case 3: Big data archaeology</h2>
+<p>Archaeology produces a lot of data.<br>
+Much of it is now publicly available.</p>
+<div class="fragment">
+<p>What happens when outsiders use it?</p>
+</div>
+<div class="notes">
+<p>One final example is the reuse of archaeological research data.</p>
+<p>Archaeology produces a lot of data, and much of it is now publicly available.</p>
+<p>☞ Does the manner of its reuse matter? What happens when non-archaeologists try to use it?</p>
+<p>☞</p>
+</div>
+</section>
+<section id="case-3-big-data-archaeology-1" class="level2">
+<h2 class="anchored" data-anchor-id="case-3-big-data-archaeology-1">Case 3: Big data archaeology</h2>
+<p>Computer scientists / data scientists / physicists publish high-profile papers “solving” archaeological problems with large integrated datasets.</p>
+<div class="fragment">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 37%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Outside the community</th>
+<th>Inside the community</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Treatment of data</td>
+<td>Neutral, abstract, recombinant</td>
+<td>Storied, situated, context-laden</td>
+</tr>
+<tr class="even">
+<td>Epistemic stance</td>
+<td>Data taken as source of universal truth</td>
+<td>Contributing one point of view</td>
+</tr>
+<tr class="odd">
+<td>Community response</td>
+<td>Intuitively rejected</td>
+<td>Treated with consideration</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="fragment">
+<p>Understanding a dataset’s circumstances of creation comes from community membership.</p>
+</div>
+<div class="fragment">
+<p>The difference is not credentials, but <strong>care</strong>.</p>
+</div>
+<div class="notes">
+<p>I think we have all been frustrated when a computer scientists, data scientist of physicist has tried to apply a nonsensical approach using open humanities data.</p>
+<p>☞ I don’t know about you, but most archaeologists I know who read these outsider papers will feel something is wrong before they can fully articulate why.</p>
+<p>This is because the data is being treated as neutral and abstract — as if knowing the variable names is the same as knowing what they mean.</p>
+<p>☞ Archaeologists know that datasets carry histories. They know that a field record reflects the decisions of a particular excavator on a particular day, under particular conditions. That knowledge comes from having been trained as an archaeologist.</p>
+<p>And archaeologists are very keen to welcome cross-disciplinary collaborations, which — when done right, essentially entails communicating these values across the disciplinary boundary.</p>
+<p>☞ In other words, it’s not really about credentials, but care.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="ai-as-amplifier-not-origin" class="level2">
+<h2 class="anchored" data-anchor-id="ai-as-amplifier-not-origin">AI as amplifier, not origin</h2>
+<p>We put our data out there. We made it FAIR.<br>
+We imagined collegial use-cases, and engaging with others who care.</p>
+<div class="fragment">
+<p>Putting data on the open web has always involved relinquishing control.</p>
+</div>
+<div class="fragment">
+<p><span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#FFDE64" data-multiline="true">The problem isn’t AI per se, but how data is deployed beyond community membership —&nbsp;without the gradual participation that builds the tacit knowledge to use data responsibly.</span></p>
+</div>
+<div class="notes">
+<p>Overall, I don’t think we can really blame others for these problems.</p>
+<p>We did this. We built the infrastructure, we put our data out there and declared it open.</p>
+<p>The FAIR principles — Findable, Accessible, Interoperable, Reusable — were designed with certain kinds of users in mind.</p>
+<p>Maybe language model training pipelines, built by those who actually care.</p>
+<p>☞ But putting machine-readable data on the open web without restriction has always involved relinquishing control.</p>
+<p>☞ ☞ AI didn’t break the commons, but it did expose the gap between our expectations of careful use and how others will actually use the data we make available.</p>
+<p>☞</p>
+</div>
+<hr>
+<div class="r-fit-text">
+<p>Is AI being done by humanists,<br>
+or by engineers playing humanist<br>
+for an afternoon?</p>
+</div>
+<div class="notes">
+<p>A blanket boycott treats all AI use as equivalent — which is exactly the kind of category error I’ve been arguing against throughout this talk.</p>
+<p>The question isn’t whether AI is involved, but <em>who</em> is doing the work, <em>how</em> it’s being done, whether it’s done with respect and care for the data and the community, and <em>how</em> truth claims are expressed.</p>
+<p>For example, using local models targeting a specific research question, with explicit attention to its limitations looks very different from training a foundation model on scraped scholarship and selling access to it.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="humanities-defined-by-practice-not-data-type" class="level2">
+<h2 class="anchored" data-anchor-id="humanities-defined-by-practice-not-data-type">Humanities defined by practice, not data type</h2>
+<div class="fragment">
+<p>Humanities is not defined by the kinds of data it uses.</p>
+</div>
+<div class="fragment">
+<p>It’s defined by the care and approaches we take —<br>
+our understanding of our data’s affordances and limitations.</p>
+</div>
+<div class="fragment" style="padding-top: 5px;">
+<p><span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#F3A6C8" data-rn.multiline="true">Humanists are extremely well-equipped to engage with AI —<br>
+critically, carefully, on our own terms.</span></p>
+</div>
+<div class="notes">
+<p>This is ultimately a question about what makes work humanistic.</p>
+<p>☞ As the digital humanities have shown, the humanities are not defined by data type — text, material culture, historical sources.</p>
+<p>☞ Instead, it’s about orientation — how we approach data, with careful consideration of data’s potential affordances and limitations.</p>
+<p>☞ This, and our methodological expertise working with texts and our critical attention to how knowledge is made, doesn’t <em>just</em> equip us to engage with AI,</p>
+<p>☞ but in fact makes us <em>better</em> equipped than most to do so critically.</p>
+<p>We already read sources against the grain, and we already constantly question how texts are produced, under what conditions, and with what intentions.</p>
+<p>That’s exactly what’s needed when processing texts using large language models.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="where-do-we-draw-the-line" class="level1">
+<h1>Where do we draw the line?</h1>
+<p>Re-defining open social scholarship is not about redrawing the line from scratch.</p>
+<div class="fragment">
+<p><span class="rn-fragment fragment" data-rn-type="highlight" data-rn-color="#C3B1E1" data-rn-multiline="true">It’s about making the existing lines more <strong>legible</strong> —<br>
+more <strong>porous</strong> where appropriate,<br>
+<strong>defended</strong> where they matter.</span></p>
+</div>
+<div class="fragment">
+<p>These boundaries do and should continue to exist, and it is our responsibly to tend them.</p>
+</div>
+<div class="notes">
+<p>The conference theme asks us to re-define open social scholarship.</p>
+<p>I want to resist the word “re-define” slightly — not because definitions don’t matter, but because the framing implies we’re starting from scratch.</p>
+<p>We’re not. We have communities of practice. We have norms. We have commitments. AI has strained them, but it hasn’t erased them.</p>
+<p>☞ What’s needed is not new definitions but greater legibility —</p>
+<p>☞ making explicit the implicit agreements that have always governed how we share and use scholarly work.</p>
+<p>This also involves softening the boundaries in some places, and defending them in others.</p>
+<p>☞ In other words, these boundaries do and should continue to exist, and it is our responsibly to tend to them.</p>
+<p>☞</p>
+</div>
+</section>
+<section id="thank-you" class="level1">
+<h1>Thank you</h1>
+<div class="fragment shoot-confetti">
+<p>These slides, the speaker notes and the abstract are available at <a href="https://zackbatist.info/inke-2026">zackbatist.info/inke-2026</a></p>
+</div>
+<div class="notes">
+<p>Thanks for listening.</p>
+<p>☞ The slides, speaker notes and abstract are available on my website, for those who are interested.</p>
 </div>
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@unpublished{batist,
   author = {Batist, Zachary},

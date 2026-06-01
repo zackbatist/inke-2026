@@ -63,6 +63,76 @@
     "text": "Humanities defined by practice, not data type\n\nHumanities is not defined by the kinds of data it uses.\n\n\nIt’s defined by the care and approaches we take —\nour understanding of our data’s affordances and limitations.\n\n\nHumanists are extremely well-equipped to engage with AI —\ncritically, carefully, on our own terms.\n\n\nThis is ultimately a question about what makes work humanistic.\n☞ As the digital humanities have shown, the humanities are not defined by data type — text, material culture, historical sources.\n☞ Instead, it’s about orientation — how we approach data, with careful consideration of data’s potential affordances and limitations.\n☞ This, and our methodological expertise working with texts and our critical attention to how knowledge is made, doesn’t just equip us to engage with AI,\n☞ but in fact makes us better equipped than most to do so critically.\nWe already read sources against the grain, and we already constantly question how texts are produced, under what conditions, and with what intentions.\nThat’s exactly what’s needed when processing texts using large language models.\n☞"
   },
   {
+    "objectID": "speaker-notes.html",
+    "href": "speaker-notes.html",
+    "title": "Where do we draw the line?",
+    "section": "",
+    "text": "Researchers share their work openly.\nAI consumes it at scale.\nIs this a new problem, or an old one made visible?"
+  },
+  {
+    "objectID": "speaker-notes.html#commons-are-social-systems",
+    "href": "speaker-notes.html#commons-are-social-systems",
+    "title": "Where do we draw the line?",
+    "section": "Commons are social systems",
+    "text": "Commons are social systems\n\nResearchers have always participated in information commons:\n\nCiting prior work, sharing data, building on others’ findings\nThese commons are scaffolded by norms and commitments — not just platforms and mandates\nInstilled through participation in communities of practice\n\n\n\nScience reform operates by implementing new rules, new laws, new technical processes.\n\n\nSo what makes that kind of engagement possible? And what threatens it?\n☞ Researchers have always participated in information commons — citing, sharing, building on prior work.\n☞ But these commons are scaffolded by norms and commitments instilled through community membership, not just platforms or mandates.\n☞ However, we are increasingly being told that opening our research requires new rules, new laws, and new technical processes - which may contradict or disrupt established norms and traditions.\nWhile some significant changes may be warranted, they must be implemented with care.\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#commons-are-social-systems-1",
+    "href": "speaker-notes.html#commons-are-social-systems-1",
+    "title": "Where do we draw the line?",
+    "section": "Commons are social systems",
+    "text": "Commons are social systems\n\n\n\nTechnical camp\nInfrastructures & mandates\nInformation as disembodied\nProblems are legalistic in nature\n\nHumanistic camp\nReforming science as inclusive\nKnowledge as socially situated\nProblems are rooted in culture\n\n\n\n\nThe technical camp dominates policy.\nThe humanistic camp is better equipped to understand the actual problem.\n\n\n☞ The open science movement has two orientations that rarely talk to each other. A technical camp designs infrastructure and mandates — FAIR data, open access requirements, licensing frameworks, whereas a humanistic camp is concerned with reforming science as a more inclusive, culturally aware enterprise.\nThe technical camp sees problems as legalistic: access, interoperability, reproducibility, and the humanistic camp sees problems as rooted in culture: who gets to participate, whose knowledge counts, how norms are negotiated.\n☞ The technical camp dominates policy.\n☞ But the humanistic camp is better equipped to understand the actual problems — which is why we’re here today talking about AI and commons rather than just filing a complaint with a licensing body.\nBut before I continue, I want to be upfront about where I’m coming from.\nI do use AI in my work. I use commercial tools to develop data processing pipelines that I would not otherwise be able to make, I use local models as part of extended text analysis toolchains, and I generally find it handy as a reflexive tool to enter in dialog with myself.\nBut I also think it’s important to do these things with care and with critical thought.\nI use these tools as methods, not as sources of truth, and as I’ll argue here today, this makes a world of a difference.\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#the-no-boundaries-claim-is-a-happy-lie",
+    "href": "speaker-notes.html#the-no-boundaries-claim-is-a-happy-lie",
+    "title": "Where do we draw the line?",
+    "section": "The “no boundaries” claim is a happy lie",
+    "text": "The “no boundaries” claim is a happy lie\n“Universal access” sounds egalitarian.\nBut even the most committed open advocates expect citation, attribution, appropriate reuse.\n\nCommons have never been, and don’t need to be, egalitarian.\nThey are governed — who contributes, who accesses, in what ways.\n\n\nThe boundary is not a wall. It’s a sniff test —\njudged by behavior, care, and commitment, not credentials alone.\n\n\nThat distinction between using tools as methods, with care, in compliance with community norms and values, is exactly what open science policy tends to flatten.\nIt declares “universal access” as if no conditions exist, but they always have — they’re just implicit.\n☞ Even open science’s most committed advocates claim ownership of their creative outputs, and expect their work to be cited, engaged with charitably, and used in ways consistent with its intent.\n☞ In this sense, open commons have always been ☞ governed.\nWe actually impose strict controls over who may contribute and extract from the commons, and in what ways.\n☞ The mechanism for enforcing these rules are rarely formal. It’s more of a sensibility —\n☞ a judgment about whether someone is engaging in good faith, with care, with some understanding of what they’re working with. Credentials don’t confer that. Community membership does.\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#case-1-pdf-piracy",
+    "href": "speaker-notes.html#case-1-pdf-piracy",
+    "title": "Where do we draw the line?",
+    "section": "Case 1: PDF piracy",
+    "text": "Case 1: PDF piracy\n\n\n\nAaron Swartz\nShared academic papers widely\n→ Celebrated\n\n\n\nMeta\nScraped LibGen at scale\n→ Condemned\n\n\n\n\nSame act. Radically different valence.\n\n\nOne serves the community — makes research available to people who can’t get it any other way, and adds to the commons in doing so.\n\n\nThe other extracts from it — a predatory actor in it for themselves alone.\n\n\nThe difference is relational, not technical or legal.\n\n\nOne example is the different ways we address PDF piracy.\n☞ Aaron Swartz famously downloaded millions of academic papers and planned to release them publicly. The research community celebrated him for it.\n☞ Meta scraped LibGen to train its models — an outside actor with nothing invested in the commons, and the community condemned them for it.\n☞ They engaged in the same act, but with radically different valence.\n☞ ☞ Swartz served the community — made research available to people who couldn’t get it any other way, and in this way, he added to the commons.\n☞ ☞ Meta extracts from it — a predatory actor with no stake in what it takes.\n☞ ☞ The difference isn’t technical, or even legal. It’s relational.\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#case-2-the-internet-archive",
+    "href": "speaker-notes.html#case-2-the-internet-archive",
+    "title": "Where do we draw the line?",
+    "section": "Case 2: The Internet Archive",
+    "text": "Case 2: The Internet Archive\nThe National Emergency Library (2020) — granting access to books during Covid-19.\n\n\nLegitimate, community-serving initiative ✓\n\n\n\n\nDriven by confidence in technical solutions to social problems ✗\n\n\n\nThe manner of the intervention mattered as much as the outcome.\n\n\nThe Internet Archive’s National Emergency Library is a more complicated case.\nDuring the Covid-19 pandemic, it set out to make books more readily available as a public service.\n☞ ☞ Their mission was legitimate and community-serving, even if it did not entirely adhere with professional archival and legal principles.\n☞ ☞ But it was also an example of a certain tech-driven confidence: the idea that you can resolve questions of access, copyright, and distribution through unilateral technical action.\nIt ended in lawsuits that set legal precedent for how similar actions may proceed in the future, which complicates the IA’s identity as a leading actor in the archival community.\n☞ ☞ The point isn’t that they were wrong to try. It’s that the manner of the intervention mattered as much as the outcome.\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#case-3-big-data-archaeology",
+    "href": "speaker-notes.html#case-3-big-data-archaeology",
+    "title": "Where do we draw the line?",
+    "section": "Case 3: Big data archaeology",
+    "text": "Case 3: Big data archaeology\nArchaeology produces a lot of data.\nMuch of it is now publicly available.\n\nWhat happens when outsiders use it?\n\n\nOne final example is the reuse of archaeological research data.\nArchaeology produces a lot of data, and much of it is now publicly available.\n☞ Does the manner of its reuse matter? What happens when non-archaeologists try to use it?\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#case-3-big-data-archaeology-1",
+    "href": "speaker-notes.html#case-3-big-data-archaeology-1",
+    "title": "Where do we draw the line?",
+    "section": "Case 3: Big data archaeology",
+    "text": "Case 3: Big data archaeology\nComputer scientists / data scientists / physicists publish high-profile papers “solving” archaeological problems with large integrated datasets.\n\n\n\n\n\n\n\n\n\n\nOutside the community\nInside the community\n\n\n\n\nTreatment of data\nNeutral, abstract, recombinant\nStoried, situated, context-laden\n\n\nEpistemic stance\nData taken as source of universal truth\nContributing one point of view\n\n\nCommunity response\nIntuitively rejected\nTreated with consideration\n\n\n\n\n\nUnderstanding a dataset’s circumstances of creation comes from community membership.\n\n\nThe difference is not credentials, but care.\n\n\nI think we have all been frustrated when a computer scientists, data scientist of physicist has tried to apply a nonsensical approach using open humanities data.\n☞ I don’t know about you, but most archaeologists I know who read these outsider papers will feel something is wrong before they can fully articulate why.\nThis is because the data is being treated as neutral and abstract — as if knowing the variable names is the same as knowing what they mean.\n☞ Archaeologists know that datasets carry histories. They know that a field record reflects the decisions of a particular excavator on a particular day, under particular conditions. That knowledge comes from having been trained as an archaeologist.\nAnd archaeologists are very keen to welcome cross-disciplinary collaborations, which — when done right, essentially entails communicating these values across the disciplinary boundary.\n☞ In other words, it’s not really about credentials, but care.\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#ai-as-amplifier-not-origin",
+    "href": "speaker-notes.html#ai-as-amplifier-not-origin",
+    "title": "Where do we draw the line?",
+    "section": "AI as amplifier, not origin",
+    "text": "AI as amplifier, not origin\nWe put our data out there. We made it FAIR.\nWe imagined collegial use-cases, and engaging with others who care.\n\nPutting data on the open web has always involved relinquishing control.\n\n\nThe problem isn’t AI per se, but how data is deployed beyond community membership — without the gradual participation that builds the tacit knowledge to use data responsibly.\n\n\nOverall, I don’t think we can really blame others for these problems.\nWe did this. We built the infrastructure, we put our data out there and declared it open.\nThe FAIR principles — Findable, Accessible, Interoperable, Reusable — were designed with certain kinds of users in mind.\nMaybe language model training pipelines, built by those who actually care.\n☞ But putting machine-readable data on the open web without restriction has always involved relinquishing control.\n☞ ☞ AI didn’t break the commons, but it did expose the gap between our expectations of careful use and how others will actually use the data we make available.\n☞\n\n\n\nIs AI being done by humanists,\nor by engineers playing humanist\nfor an afternoon?\n\n\nA blanket boycott treats all AI use as equivalent — which is exactly the kind of category error I’ve been arguing against throughout this talk.\nThe question isn’t whether AI is involved, but who is doing the work, how it’s being done, whether it’s done with respect and care for the data and the community, and how truth claims are expressed.\nFor example, using local models targeting a specific research question, with explicit attention to its limitations looks very different from training a foundation model on scraped scholarship and selling access to it.\n☞"
+  },
+  {
+    "objectID": "speaker-notes.html#humanities-defined-by-practice-not-data-type",
+    "href": "speaker-notes.html#humanities-defined-by-practice-not-data-type",
+    "title": "Where do we draw the line?",
+    "section": "Humanities defined by practice, not data type",
+    "text": "Humanities defined by practice, not data type\n\nHumanities is not defined by the kinds of data it uses.\n\n\nIt’s defined by the care and approaches we take —\nour understanding of our data’s affordances and limitations.\n\n\nHumanists are extremely well-equipped to engage with AI —\ncritically, carefully, on our own terms.\n\n\nThis is ultimately a question about what makes work humanistic.\n☞ As the digital humanities have shown, the humanities are not defined by data type — text, material culture, historical sources.\n☞ Instead, it’s about orientation — how we approach data, with careful consideration of data’s potential affordances and limitations.\n☞ This, and our methodological expertise working with texts and our critical attention to how knowledge is made, doesn’t just equip us to engage with AI,\n☞ but in fact makes us better equipped than most to do so critically.\nWe already read sources against the grain, and we already constantly question how texts are produced, under what conditions, and with what intentions.\nThat’s exactly what’s needed when processing texts using large language models.\n☞"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Where do we draw the line?",
