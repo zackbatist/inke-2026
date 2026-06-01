@@ -49,6 +49,8 @@ The tension between open scholarship and AI is real — but I don't think it's n
 ☞ I think AI has made visible a set of tensions that were always present in how we think about open information commons.
 
 This talk is about those tensions, and what a social rather than technical lens reveals about them.
+
+☞
 :::
 
 ## Commons are social systems
@@ -75,6 +77,8 @@ So what makes that kind of engagement possible? And what threatens it?
 ☞ However, we are increasingly being told that opening our research requires new rules, new laws, and new technical processes - which may contradict or disrupt established norms and traditions.
 
 While some significant changes may be warranted, they must be implemented with care.
+
+☞
 :::
 
 ## Commons are social systems
@@ -110,7 +114,7 @@ The technical camp sees problems as legalistic: access, interoperability, reprod
 
 ☞ The technical camp dominates policy.
 
-☞ But it's the humanistic camp is better equipped to understand the actual problem — which is why we're here today talking about AI and commons rather than just filing a complaint with a licensing body.
+☞ But the humanistic camp is better equipped to understand the actual problems — which is why we're here today talking about AI and commons rather than just filing a complaint with a licensing body.
 
 But before I continue, I want to be upfront about where I'm coming from.
 
@@ -119,6 +123,8 @@ I do use AI in my work. I use commercial tools to develop data processing pipeli
 But I also think it's important to do these things with care and with critical thought.
 
 I use these tools as methods, not as sources of truth, and as I'll argue here today, this makes a world of a difference.
+
+☞
 :::
 
 ## The "no boundaries" claim is a happy lie
@@ -144,18 +150,26 @@ It declares "universal access" as if no conditions exist, but they always have �
 
 ☞ Even open science's most committed advocates claim ownership of their creative outputs, and expect their work to be cited, engaged with charitably, and used in ways consistent with its intent.
 
-☞ In this sense, open commons have always been ☞ governed. We actually impose strict controls over who may contribute and extract from the commons, and in what ways.
+☞ In this sense, open commons have always been ☞ governed.
 
-☞ The mechanism for enforcing these rules are rarely formal. It's more of a sensibility — ☞ a judgment about whether someone is engaging in good faith, with care, with some understanding of what they're working with. Credentials don't confer that. Community membership does.
+We actually impose strict controls over who may contribute and extract from the commons, and in what ways.
+
+☞ The mechanism for enforcing these rules are rarely formal. It's more of a sensibility —
+
+☞ a judgment about whether someone is engaging in good faith, with care, with some understanding of what they're working with. Credentials don't confer that. Community membership does.
+
+☞
 :::
 
 ## Case 1: PDF piracy
 
 ::: {.columns}
 ::: {.column width="50%"}
+::: {.fragment}
 **Aaron Swartz**\
 Shared academic papers widely\
 → *Celebrated*
+:::
 :::
 ::: {.column width="50%"}
 ::: {.fragment}
@@ -183,17 +197,19 @@ Same act. Radically different valence.
 :::
 
 ::: {.notes}
-Aaron Swartz downloaded millions of academic papers and planned to release them publicly. The research community celebrated him for it.
+One example is the different ways we address PDF piracy.
+
+☞ Aaron Swartz famously downloaded millions of academic papers and planned to release them publicly. The research community celebrated him for it.
 
 ☞ Meta scraped LibGen to train its models — an outside actor with nothing invested in the commons, and the community condemned them for it.
 
-☞ Same act. Radically different valence.
+☞ They engaged in the same act, but with radically different valence.
 
-☞ Swartz serves the community — makes research available to people who can't get it any other way, ☞ and adds to the commons in doing so.
+☞ ☞ Swartz served the community — made research available to people who couldn't get it any other way, and in this way, he added to the commons.
 
-☞ Meta extracts from it — ☞ a predatory actor with no stake in what it takes.
+☞ ☞ Meta extracts from it — a predatory actor with no stake in what it takes.
 
-☞ The difference isn't technical. It isn't even legal. It's relational.
+☞ ☞ The difference isn't technical, or even legal. It's relational.
 
 ☞
 :::
@@ -203,24 +219,31 @@ Aaron Swartz downloaded millions of academic papers and planned to release them 
 The National Emergency Library (2020) — granting access to books during Covid-19.
 
 ::: {.fragment}
-- [Informed by professional archival principles]{.rn-fragment rn-type="highlight" rn-color="#FFDE64"} ✓
+- [Legitimate, community-serving initiative]{.rn-fragment rn-type="highlight" rn-color="#FFDE64"} ✓
+:::
+
+::: {.fragment}
 - [Driven by confidence in technical solutions to social problems]{.rn-fragment rn-type="highlight" rn-color="#FF746C"} ✗
 :::
 
 ::: {.fragment}
-It applied a technical resolution to an underlying social problem.\
-
 [The manner of the intervention mattered as much as the outcome.]{.rn-fragment rn-type="underline" rn-color="#2a6496"}
 :::
 
 ::: {.notes}
-The Internet Archive is a more complicated case, which is why it's useful here.
+The Internet Archive's National Emergency Library is a more complicated case.
 
-☞ The archival mission is legitimate and community-serving. But the National Emergency Library was also an example of a certain tech-driven confidence: the idea that you can resolve questions of access, copyright, and distribution through unilateral technical action.
+During the Covid-19 pandemic, it set out to make books more readily available as a public service.
 
-It ended in lawsuits, partly because publishers felt the Archive had overstepped — not just legally, but in terms of the norms of how decisions about access get made.
+☞ ☞ Their mission was legitimate and community-serving, even if it did not entirely adhere with professional archival and legal principles.
 
-The point isn't that they were wrong to try. It's that the manner of the intervention mattered as much as the outcome.
+☞ ☞ But it was also an example of a certain tech-driven confidence: the idea that you can resolve questions of access, copyright, and distribution through unilateral technical action.
+
+It ended in lawsuits that set legal precedent for how similar actions may proceed in the future, which complicates the IA's identity as a leading actor in the archival community.
+
+☞ ☞ The point isn't that they were wrong to try. It's that the manner of the intervention mattered as much as the outcome.
+
+☞
 :::
 
 ## Case 3: Big data archaeology
@@ -230,6 +253,16 @@ Much of it is now publicly available.
 
 ::: {.fragment}
 What happens when outsiders use it?
+:::
+
+::: {.notes}
+One final example is the reuse of archaeological research data.
+
+Archaeology produces a lot of data, and much of it is now publicly available.
+
+☞ Does the manner of its reuse matter? What happens when non-archaeologists try to use it?
+
+☞
 :::
 
 ## Case 3: Big data archaeology
@@ -245,47 +278,57 @@ Computer scientists / data scientists / physicists publish high-profile papers "
 :::
 
 ::: {.fragment}
-[The difference is not credentials. It's **care** —\
-understanding a dataset's circumstances of creation comes from community membership.]{.rn-fragment rn-type="highlight" rn-color="#FFDE64" rn.multiline=true}
+Understanding a dataset's circumstances of creation comes from community membership.
 :::
 
+::: {.fragment}
+The difference is not credentials, but **care**.
+:::
+
+
 ::: {.notes}
-Any archaeologist who reads these outsider papers will feel something is wrong before they can fully articulate why.
+I think we have all been frustrated when a computer scientists, data scientist of physicist has tried to apply a nonsensical approach using open humanities data.
 
-It's because the data is being treated as neutral and abstract — as if knowing the variable names is the same as knowing what they mean.
+☞ I don't know about you, but most archaeologists I know who read these outsider papers will feel something is wrong before they can fully articulate why.
 
-Archaeologists know that datasets carry histories. They know that a field record reflects the decisions of a particular excavator on a particular day, under particular conditions. That knowledge comes from having been trained as an archaeologist.
+This is because the data is being treated as neutral and abstract — as if knowing the variable names is the same as knowing what they mean.
 
-When a computer scientist treats a dataset as a clean input to an algorithm, they're not doing something illegal. They're doing something epistemically careless. And the community can tell.
+☞ Archaeologists know that datasets carry histories. They know that a field record reflects the decisions of a particular excavator on a particular day, under particular conditions. That knowledge comes from having been trained as an archaeologist.
+
+And archaeologists are very keen to welcome cross-disciplinary collaborations, which — when done right, essentially entails communicating these values across the disciplinary boundary.
+
+☞ In other words, it's not really about credentials, but care.
+
+☞
 :::
 
 ## AI as amplifier, not origin
 
 We put our data out there. We made it FAIR.\
-We imagined certain use-cases. Certain users.
+We imagined collegial use-cases, and engaging with others who care.
 
 ::: {.fragment}
-AI scraped it for different ends.
+Putting data on the open web has always involved relinquishing control.
 :::
 
 ::: {.fragment}
-This is structurally similar to UNESCO World Heritage claims:\
-[*"for all humanity"*]{.rn-fragment rn-type="circle" rn-color="#2a6496"} — often at the expense of those who inhabit and maintain the site.
-:::
-
-::: {.fragment}
-[The problem isn't AI per se.\
-It's AI deployed **without community membership**]{.rn-fragment rn-type="highlight" rn-color="#FFDE64" rn.multiline="true"} — without the gradual participation that builds the tacit knowledge to use data responsibly.
+[The problem isn't AI per se, but how data is deployed beyond community membership —\ without the gradual participation that builds the tacit knowledge to use data responsibly.]{.rn-fragment rn-type="highlight" rn-color="#FFDE64" multiline=true}
 :::
 
 ::: {.notes}
-We did this. We built the infrastructure. We put our data out there and declared it open.
+Overall, I don't think we can really blame others for these problems.
 
-The FAIR principles — Findable, Accessible, Interoperable, Reusable — were designed with a certain kind of user in mind. Not language model training pipelines.
+We did this. We built the infrastructure, we put our data out there and declared it open.
 
-The UNESCO analogy is apt: when you declare something a common heritage of humanity, you create conditions for uses you never anticipated, and you can undermine the people who actually maintain the thing.
+The FAIR principles — Findable, Accessible, Interoperable, Reusable — were designed with certain kinds of users in mind.
 
-AI didn't break the commons. It exposed the gap between what we said the commons was for and what "open" actually meant in practice.
+Maybe language model training pipelines, built by those who actually care.
+
+☞ But putting machine-readable data on the open web without restriction has always involved relinquishing control.
+
+☞ ☞ AI didn't break the commons, but it did expose the gap between our expectations of careful use and how others will actually use the data we make available.
+
+☞
 :::
 
 ---
@@ -299,44 +342,50 @@ for an afternoon?
 ::: {.notes}
 A blanket boycott treats all AI use as equivalent — which is exactly the kind of category error I've been arguing against throughout this talk.
 
-The question isn't whether AI is involved. It's who is doing the work, how it's being done, whether it's done with respect and care for the data and the community, and how truth claims are expressed.
+The question isn't whether AI is involved, but _who_ is doing the work, _how_ it's being done, whether it's done with respect and care for the data and the community, and _how_ truth claims are expressed.
 
-Using AI locally, on device, for a specific research question, with explicit attention to its limitations — that looks very different from training a foundation model on scraped scholarship and selling access to it.
+For example, using local models targeting a specific research question, with explicit attention to its limitations looks very different from training a foundation model on scraped scholarship and selling access to it.
+
+☞
 :::
 
 ## Humanities defined by practice, not data type
 
+::: {.fragment}
 Humanities is not defined by the kinds of data it uses.
-
-[It's defined by the **care and approaches** we take —\
-the training, the community embedding, the commitments.]{.rn-fragment rn-type="highlight" rn-color="#FFDE64" rn.multiline="true"}
+:::
 
 ::: {.fragment}
-You can't substitute a flashy method for a good question,\
-a rigorous orientation, or an open mind.
-
-[Tool-fetishizing has always been a dead end.]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3}
+It's defined by the care and approaches we take —\
+our understanding of our data's affordances and limitations.
 :::
 
 ::: {.fragment style="padding-top: 5px;"}
 [Humanists are extremely well-equipped to engage with AI —\
-critically, carefully, on their own terms]{.rn-fragment rn-type="highlight" rn-color="#F3A6C8" rn.multiline=true}
+critically, carefully, on our own terms.]{.rn-fragment rn-type="highlight" rn-color="#F3A6C8" rn.multiline=true}
 :::
 
 ::: {.notes}
 This is ultimately a question about what makes work humanistic.
 
-If it's the data type — text, material culture, historical sources — then AI potentially threatens the boundary by operating on the same materials.
+☞ As the digital humanities have shown, the humanities are not defined by data type — text, material culture, historical sources.
 
-But if it's the orientation — the care, the situatedness, the attention to how knowledge is made — then humanists are not just equipped to engage with AI, they're better equipped than most to do so critically.
+☞ Instead, it's about orientation — how we approach data, with careful consideration of data's potential affordances and limitations.
 
-We already read sources against the grain. We already ask who produced this, under what conditions, with what intentions. That's exactly what's needed when evaluating AI-generated outputs.
+☞ This, and our methodological expertise working with texts and our critical attention to how knowledge is made, doesn't _just_ equip us to engage with AI,
+
+☞ but in fact makes us _better_ equipped than most to do so critically.
+
+We already read sources against the grain, and we already constantly question how texts are produced, under what conditions, and with what intentions.
+
+That's exactly what's needed when processing texts using large language models.
+
+☞
 :::
 
 # Where do we draw the line?
 
-Re-defining open social scholarship is not about\
-redrawing the line from scratch.
+Re-defining open social scholarship is not about redrawing the line from scratch.
 
 ::: {.fragment}
 [It's about making the existing lines more **legible** —\
@@ -345,27 +394,36 @@ more **porous** where appropriate,\
 :::
 
 ::: {.fragment}
-The line isn't gone.\
-It's [ours]{.rn-fragment rn-type="underline" rn-color="#2a6496" rn-strokeWidth=3} to tend.
+These boundaries do and should continue to exist, and it is our responsibly to tend them.
 :::
 
 ::: {.notes}
-The conference theme asks us to re-define open social scholarship. I want to resist the word "re-define" slightly — not because definitions don't matter, but because the framing implies we're starting from scratch.
+The conference theme asks us to re-define open social scholarship.
+
+I want to resist the word "re-define" slightly — not because definitions don't matter, but because the framing implies we're starting from scratch.
 
 We're not. We have communities of practice. We have norms. We have commitments. AI has strained them, but it hasn't erased them.
 
-What's needed is not new definitions but greater legibility — making explicit the implicit agreements that have always governed how we share and use scholarly work.
+☞ What's needed is not new definitions but greater legibility — 
 
-Thank you.
+☞ making explicit the implicit agreements that have always governed how we share and use scholarly work.
+
+This also involves softening the boundaries in some places, and defending them in others.
+
+☞ In other words, these boundaries do and should continue to exist, and it is our responsibly to tend to them.
+
+☞
 :::
 
 # Thank you
 
 ::: {.fragment .shoot-confetti}
-<div style="position:relative;z-index:1;">
-These slides, speaker notes and abstract are available at
+These slides, the speaker notes and the abstract are available at
 [zackbatist.info/inke-2026](https://zackbatist.info/inke-2026)
+:::
 
-Archived on Knowledge Commons at DOI: XXXX
-</div>
+::: {.notes}
+Thanks for listening.
+
+☞ The slides, speaker notes and abstract are available on my website, for those who are interested.
 :::
