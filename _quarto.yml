@@ -5,8 +5,9 @@ project:
     port: 7777
     browser: false
   render:
-    - "*.qmd"
+    - "index.qmd"
     - "!notes/"
+    - "!slides.qmd"
 
 website:
   title: "INKE-2026"

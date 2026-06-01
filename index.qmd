@@ -13,7 +13,6 @@ format:
     toc: false
     slide-number: c/t
     theme: [default, assets/slides.scss]
-    format-links: false
 format-links:
   - format: revealjs
     text: Slides
