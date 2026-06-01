@@ -7,9 +7,15 @@ format:
       body-width: 950px
     include-in-header:
       - assets/styles.html
+  revealjs:
+    output-file: slides
+    embed-resources: true
+    toc: false
+    slide-number: c/t
+    theme: [default, assets/slides.scss]
 format-links:
-  - text: Slides
-    href: slides.html
+  - format: revealjs
+    text: Slides
     icon: easel
 ---
 
