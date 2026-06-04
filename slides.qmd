@@ -56,6 +56,14 @@ The tension between open scholarship and AI is real — but I don't think it's n
 
 This talk is about those tensions, and what a social rather than technical lens reveals about them.
 
+In other words, there is a lot of data in the commons, which can be used in many, many ways — some more helpful than others.
+
+So this talk is about AI only inasmuch as it is about access to the commons.
+
+I'd also like to point out that I'm addressing these concerns as a researcher, not as a maintainer of research infrastructure.
+Others, especially during the first session, addressed how challenges were experienced on that end, i.e. how to deal with bot swarms, how to think about sensitive datasets being shared openly, etc.
+
+
 ☞
 :::
 
@@ -355,7 +363,7 @@ For example, using local models targeting a specific research question, with exp
 ☞
 :::
 
-## Humanities defined by practice, not data type
+<!-- ## Humanities defined by practice, not data type
 
 ::: {.fragment}
 Humanities is not defined by the kinds of data it uses.
@@ -387,7 +395,7 @@ We already read sources against the grain, and we already constantly question ho
 That's exactly what's needed when processing texts using large language models.
 
 ☞
-:::
+::: -->
 
 # Where do we draw the line?
 
@@ -417,6 +425,14 @@ We're not. We have communities of practice. We have norms. We have commitments. 
 This also involves softening the boundaries in some places, and defending them in others.
 
 ☞ In other words, these boundaries do and should continue to exist, and it is our responsibly to tend to them.
+
+Someone asked about how we know when we're doing AI right, and inasmuch as this is a talk about commons which has _implications_ for AI, I'll take the liberty of extending this to be about data applications.
+
+None of us has to, or should, make such determinations on our own. We are in constant dialog. Values are not held individually but are internalized by involvement in a community of practice. Being able to talk openly and freely, and casually and candidly, matters a lot. Being able to talk outside the boundaries of institutional channels, being able to explore subtext and context as gatherings such as this, through informal, casual and _kind_ discussion, is important.
+
+Not gotchas, but learning experiences.
+
+So to address my initial question, the line is not a strict boundary, it's a path we straddle as we move along it and weave across it. It's not fixed in place, but defined in part by our movements and our changing political, social and material environments. I have faith that we can not only figure it out, but take a leading role in guiding how others navigate this complex space.
 
 ☞
 :::
